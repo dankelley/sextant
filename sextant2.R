@@ -1,9 +1,9 @@
 rm(list=ls())
 if (!interactive())
     pdf("sextant2.pdf", width=11, height=8.5, paper="USr")
-d1 <- 10                               # big segments
-d2 <- 5                                # medium segments
-d3 <- 1                                # small segments
+d1 <- 10 # big segments
+d2 <- 2
+d3 <- 1
 theta1 <- seq(180, 360, d1) * pi/180
 theta2 <- seq(180, 360, d2) * pi/180
 theta3 <- seq(180, 360, d3) * pi/180
