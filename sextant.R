@@ -45,7 +45,7 @@ mark[length(mark)] <- NA # chop out -90 and +90
 look <- x1 > 0
 text(0, -e4*R, "0")
 text(e4*x1[look], e4*y1[look], mark)
-text(-e4*x1[look], e4*y1[look], -mark)
+text(-e4*x1[look], e4*y1[look], mark)
 lines(range(x1), rep(0, 2))
 
 if (!interactive())

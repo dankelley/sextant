@@ -14,7 +14,9 @@ References section for a blog item that explains this method).
 
 To make the sextant, follow these steps:
 
-1.  Print the file named `sextant.pdf` on a sheet of paper.
+1.  Print either the file named `sextant.pdf` or the one named
+    `sextant2.pdf` on a sheet of paper. (These files differ in how the
+    angles are laid out. Pick whichever one you find easier to read.)
 2.  Paste it on a sheet of thick cardboard or thin wood. (A wooden
     shingle would work well, for example.)
 3.  If you wish, cut along the gray outer semicircle, to eliminate
@@ -36,8 +38,7 @@ along the line from “P” to “S”, putting something into view. Wait a
 moment until the weight stops swinging, and then press your finger on
 it, just past the scale. Then, holding your finger there, read the angle
 on the scale. This is the angle between your eye and the object sighted,
-with respect to the horizontal. Positive angles mean that your object is
-below the horizon, and negative angles mean it’s above the horizon.
+with respect to the horizontal.
 
 For example, you can find the height of a tree on flat ground, by pacing
 off a distance from it’s trunk, and then finding the angle. The height
