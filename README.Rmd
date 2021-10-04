@@ -1,0 +1,65 @@
+# What is a sextant?
+
+A sextant is used to measure angles with respect to the vertical. Commercial
+sextants, which can run to several hundred dollars, typically incorporate
+mirrors and other components that make it possible to take readings of the sun
+angle, as a navigational aid.
+
+# A homemade sextant
+
+A crude sextant -- which *cannot* be used to find sun angles -- can be created
+quite simply.  It can be used to find the heights of objects, using a method
+invented a thousand years ago by Al Biruni  (see the References section for
+a blog item that explains this method).
+
+To make the sextant, follow these steps:
+
+1. Print the file named `sextant.pdf` on a sheet of paper.
+2. Paste it on a sheet of thick cardboard or thin wood.  (A wooden shingle
+   would work well, for example.)
+3. If you wish, cut along the gray outer semicircle, to eliminate corners.
+4. Create a pivot at the point marked "P", either drilling a hole and inserting
+   a thin dowel or stiff wire, or by driving a nail through the spot.  (If the
+   latter, blunt the sharp end of the nail after you insert it.
+5. Repeat step 4 at the spot marked "S".
+6. Attach fishing line, dental floss, or thin string, at point "P", and attach
+   something heavy at the end.  The string should be long enough to extend to
+   the edge of your instrument, so that the weight doesn't rub into it.
+
+# Using the sextant
+
+Hold it by the pivot, and rotate the instrument so that you can sight along the
+line from "P" to "S", putting something into view.  Wait a moment until the
+weight stops swinging, and then press your finger on it, just past the scale.
+Then, holding your finger there, read the angle on the scale.  This is the
+angle between your eye and the object sighted, with respect to the horizontal.
+Positive angles mean that your object is below the horizon, and negative angles
+mean it's above the horizon.
+
+For example, you can find the height of a tree on flat ground, by pacing off
+a distance from it's trunk, and then finding the angle. The height (in paces)
+is the tangent of the angle, times the distance you paced off.  (If you don't
+have a calculator handy, see See below for a tabulation of tangents, sines,
+etc.)  To get this height in metres, all you need to do is to take a few steps
+on a sidewalk, mark your start and end location by scratching with a stone, and
+then use a carpenter's tape or a simple ruler, to find the length of your own
+particular pace.
+
+# References
+
+Lynch, Peter. “Al Biruni and the Size of the Earth.” ThatsMaths (blog), June
+10, 2021.
+https://thatsmaths.com/2021/06/10/al-biruni-and-the-size-of-the-earth/.
+
+
+# Appendix: trigonometry tables
+
+```{r echo=FALSE}
+library(knitr)
+angle <- seq(0, 89, 1)
+sine <- sin(angle*pi/180)
+cosine <- cos(angle*pi/180)
+tangent <- tan(angle*pi/180)
+df <- data.frame(angle,sine, cosine, tangent)
+kable(df, digits=5)
+```
