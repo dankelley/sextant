@@ -39,14 +39,19 @@ weight stops swinging, and then press your finger on it, just past the scale.
 Then, holding your finger there, read the angle on the scale.  This is the
 angle between your eye and the object sighted, with respect to the horizontal.
 
-For example, you can find the height of a tree on flat ground, by pacing off
-a distance from it's trunk, and then finding the angle. The height (in paces)
-is the tangent of the angle, times the distance you paced off.  (If you don't
-have a calculator handy, see See below for a tabulation of tangents, sines,
-etc.)  To get this height in metres, all you need to do is to take a few steps
-on a sidewalk, mark your start and end location by scratching with a stone, and
-then use a carpenter's tape or a simple ruler, to find the length of your own
-particular pace.
+# Example: tree height
+
+![Diagram for measuring tree height.  $L$ is a distance paced off on the ground, $\theta$
+is the angle found by sighting to the top of the tree, and $H=L\tan\theta$ is the inferred tree height.](tree.png)
+
+As illustrated above, you can find the height $H$ of a tree on flat ground, by
+pacing off a distance $L$ from it's trunk, and then finding the angle $\theta$
+to the top. The height, in paces, is then given by $L\tan\theta$.  (To convert
+to meters or some other unit, just take some paces on a sidewalk marking start
+and end spot by scratching with chalk or a stone, and then determine your pace
+length.)  If you don't have a calculator handy, you may use the table in the
+Appendix to get the $\tan\theta$, and then multiply by hand to a couple of
+digits.
 
 # References
 
