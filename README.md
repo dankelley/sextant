@@ -12,9 +12,11 @@ typical purpose is to infer the heights of buildings, trees, or hills.
 
 A crude sextant can be created quite simply. With it, one can find the
 heights of objects, using a method invented a thousand years ago by Al
-Biruni (see the References section for a blog item explaining the
-method). Not only is this fun, but it’s a good way to see that
-high-school trigonometry is useful!
+Biruni (see Peter Lynch’s blog posting “Al Biruni and the Size of the
+Earth.” ThatsMaths, June 10, 2021.
+<https://thatsmaths.com/2021/06/10/al-biruni-and-the-size-of-the-earth/>).
+Not only is a fun activity, but it’s a good way to see that high-school
+trigonometry is useful!
 
 To make the sextant, follow these steps:
 
