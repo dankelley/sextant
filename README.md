@@ -62,12 +62,6 @@ or other measuring device.) If you don’t have a calculator handy, you
 may use the table in the Appendix to get the tan *θ*, and then multiply
 by hand to a couple of digits.
 
-# References
-
-Lynch, Peter. “Al Biruni and the Size of the Earth.” ThatsMaths (blog),
-June 10, 2021.
-<https://thatsmaths.com/2021/06/10/al-biruni-and-the-size-of-the-earth/>.
-
 # Appendix: trigonometry tables
 
 <table>
