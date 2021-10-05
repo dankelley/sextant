@@ -1,16 +1,20 @@
-# What is a sextant?
+# Professional sextants
 
-A sextant is used to measure angles with respect to the vertical.
-Commercial sextants, which can run to several hundred dollars, typically
-incorporate mirrors and other components that make it possible to take
-readings of the sun angle, as a navigational aid.
+A sextant is an instrument for measuring angles between objects. They
+have been used in navigation for centuries, because latitude can be
+inferred from a measurement of the angle between the horizon and the
+noontime sun. For this reason, professional sextants have a way of
+sighting the sun angle without looking at the sun. This method is
+**not** a possibility with the sextant described below; rather the
+typical purpose is to infer the heights of buildings, trees, or hills.
 
 # A homemade sextant
 
-A crude sextant – which *cannot* be used to find sun angles – can be
-created quite simply. It can be used to find the heights of objects,
-using a method invented a thousand years ago by Al Biruni (see the
-References section for a blog item that explains this method).
+A crude sextant can be created quite simply. With it, one can find the
+heights of objects, using a method invented a thousand years ago by Al
+Biruni (see the References section for a blog item explaining the
+method). Not only is this fun, but it’s a good way to see that
+high-school trigonometry is useful!
 
 To make the sextant, follow these steps:
 
