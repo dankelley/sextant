@@ -53,11 +53,12 @@ ground, *θ* is the angle found by sighting to the top of the tree, and
 As illustrated above, you can find the height *H* of a tree on flat
 ground, by pacing off a distance *L* from it’s trunk, and then finding
 the angle *θ* to the top. The height, in paces, is then given by
-*L*tan *θ*. (To convert to meters or some other unit, just take some
-paces on a sidewalk marking start and end spot by scratching with chalk
-or a stone, and then determine your pace length.) If you don’t have a
-calculator handy, you may use the table in the Appendix to get the
-tan *θ*, and then multiply by hand to a couple of digits.
+*L*tan *θ*. (To convert to meters or some other unit, count off some
+paces on a sidewalk, asking a friend to mark the start and end spots by
+scratching with chalk or a stone. Then measure the distance with a ruler
+or other measuring device.) If you don’t have a calculator handy, you
+may use the table in the Appendix to get the tan *θ*, and then multiply
+by hand to a couple of digits.
 
 # References
 
