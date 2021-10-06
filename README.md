@@ -97,18 +97,38 @@ without tunneling through the hill, so we cannot use the formula for
 Tunneling is hard work. But trigonometry can save us that work! Let’s
 write formulas for the height inferred from the two observations. At the
 nearby spot we have
+
 *H* = *L*tan *Θ*
-and at the farther-away spot we have but these must yield the same *H*
-value, so we can combine the two equations, yielding which can be
-rearranged to and then to at which point we have a formula for the
-unknown *L*. This can be combined with the original formula to give
 
-If we knew *L* we could apply the earlier formula to both the near
-observation and the far one.
+and at the farther-away spot we have
+*H* = (*l*+*L*)tan *ϕ*
 
-We can apply the formula from Example 1 if only we could unkonown
+but these must yield the same *H* value, so we can combine the two
+equations, yielding
 
-If *θ* is the
+*L*tan *θ* = (*l*+*L*)tan *ϕ*
+
+which can be rearranged to
+
+*L*(tan*θ*−tan*ϕ*) = *l*tan *ϕ*
+
+and then to
+
+$$
+L = l\\frac{\\tan\\phi}{\\tan\\theta-\\tan\\phi}
+$$
+
+at which point we have a formula for the unknown *L*. Wow, magic!
+
+Now, we can use this result our original formula for height at the
+nearby spot, to get
+
+$$
+H = l\\frac{\\tan\\theta\\tan\\phi}{\\tan\\theta -\\tan\\phi}
+$$
+
+This little bit of mathematics is surely easier than tunneling through a
+hill :smiley:
 
 # Appendix: trigonometry tables
 
