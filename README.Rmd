@@ -4,19 +4,28 @@ A sextant is an instrument for measuring angles between objects. They have been
 used in navigation for centuries, because latitude can be inferred from a
 measurement of the angle between the horizon and the noontime sun. For this
 reason, professional sextants have a way of sighting the sun angle without
-looking at the sun.  This method is **not** a possibility with the sextant
-described below; rather the typical purpose is to infer the heights of
-buildings, trees, or hills.
+looking at the sun.
+
+This sun-observation method is **certainly NOT** a possibility with the sextant
+described below, because it does not involve a sun-blocking mechanism. Looking
+directly at the sun is, needless to say, **extremely** dangerous, because of
+the very high risk of permanent vision damage.
+
+The purpose of the sextant provided here is to for use in finding angles (with
+respect to the horizontal), which allows a person to infer the heights of
+flagpoles, buildings, and even hills, by measuring a horizontal distance and
+one or two angles.
 
 # A homemade sextant
 
-A crude sextant can be created quite simply.  With it, one can find the heights
-of objects, using a method invented a thousand years ago by Al Biruni (see
-Peter Lynch's blog posting “Al Biruni and the Size of the Earth.” ThatsMaths,
-June 10, 2021.
-https://thatsmaths.com/2021/06/10/al-biruni-and-the-size-of-the-earth/). Not
-only is a fun activity, but it's a good way to see that high-school
-trigonometry is useful!
+A crude sextant measuring angles with respect to the horizontal plane can be
+used to determine the heights of objects, using a method invented a thousand
+years ago by Al Biruni (see Peter Lynch's blog posting “Al Biruni and the Size
+of the Earth.” ThatsMaths, June 10, 2021.
+https://thatsmaths.com/2021/06/10/al-biruni-and-the-size-of-the-earth/).
+Carrying out such measurements and performing the associated calculations can
+be a fun way to spend some time outside, and it's also a good way to see that
+high-school trigonometry can be useful!
 
 To make the sextant, follow these steps:
 
