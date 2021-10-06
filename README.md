@@ -129,6 +129,14 @@ nearby spot, to get
 
 *H* = *L*<sub>2</sub> (tan*θ* tan*ϕ*) / (tan*θ* − tan*ϕ*)
 
+    ## Example: L_2=50, theta=63.43 deg, phi=45 deg yields H=100 (expect H=100)
+
+As an example, consider the illustration above, in which
+*θ* = 63.4349488, *ϕ* = 45, and suppose that a distance
+*L*<sub>2</sub> = 50m has been inferred by pacing off the distance
+between the two observation locations. The formula given above yields an
+inferred hill height of *H* = 100m.
+
 # Appendix: trigonometry tables
 
 <table>

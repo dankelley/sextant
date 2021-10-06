@@ -134,7 +134,24 @@ spot, to get
 \[
 H = L_2\ (\tan\theta\ \tan\phi)\ /\ (\tan\theta\ -\ \tan\phi)
 \]
+```{r echo=FALSE}
+theta <- atan2(1, 1-0.5)
+phi <- atan2(1, 1)
+thetaDeg <- theta * 180/pi
+phiDeg <- phi * 180/pi
+L2 <- 50
+H <- L2 * tan(theta)*tan(phi)/(tan(theta)-tan(phi))
+stopifnot(abs(H == 100) < 1e-7)
+message(sprintf("Example: L_2=%g, theta=%.4g deg, phi=%.4g deg yields H=%g (expect H=%g)",
+        L2, theta*180/pi, phi*180/pi, H, 100))
 
+```
+
+
+As an example, consider the illustration above, in which $\theta=`r thetaDeg`$,
+$\phi=`r phiDeg`$, and suppose that a distance $L_2=50$m has been inferred by
+pacing off the distance between the two observation locations.  The formula
+given above yields an inferred hill height of $H=`r H`$m.
 
 # Appendix: trigonometry tables
 
