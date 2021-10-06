@@ -101,6 +101,7 @@ nearby spot we have
 *H* = *L*tan *Θ*
 
 and at the farther-away spot we have
+
 *H* = (*l*+*L*)tan *ϕ*
 
 but these must yield the same *H* value, so we can combine the two

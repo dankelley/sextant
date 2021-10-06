@@ -97,6 +97,7 @@ H = L\tan\Theta
 \]
 
 and at the farther-away spot we have
+
 \[
 H = (l+L)\tan\phi
 \]
