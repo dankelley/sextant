@@ -115,7 +115,7 @@ which can be rearranged to
 
 and then to
 
-*L*<sub>1</sub> = *L*<sub>2</sub> (tan*ϕ*)/(tan*θ*−tan*ϕ*)
+*L*<sub>1</sub> = *L*<sub>2</sub> (tan*ϕ*) / (tan*θ*−tan*ϕ*)
 
 at which point we have a formula for the unknown distance
 *L*<sub>1</sub>. (Wow, the magic of mathematics!)
