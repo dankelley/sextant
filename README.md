@@ -86,8 +86,8 @@ is level.)
 
 Consider the figure above, in which the two angles are *θ* and *ϕ*, the
 first being the value observed nearer the hill. The distance between the
-observation spots is *l*. This is measured by pacing off distance along
-the flat plain. We measure *Θ*, *ϕ*, and *l*.
+observation spots is *L* − 1. This is measured by pacing off distance
+along the flat plain. We measure *Θ*, *ϕ*, and *L*<sub>1</sub>.
 
 If we knew *L*, we could apply the method of Example 1 at both spots,
 giving two estimates of height. However, we cannot determine *L* without
@@ -98,32 +98,32 @@ Tunneling is hard work. But trigonometry can save us that work! Let’s
 write formulas for the height inferred from the two observations. At the
 nearby spot we have
 
-*H* = *L*tan *Θ*
+*H* = *L*<sub>1</sub>tan *Θ*
 
 and at the farther-away spot we have
 
-*H* = (*l*+*L*)tan *ϕ*
+*H* = (*L*<sub>1</sub>+*L*<sub>2</sub>)tan *ϕ*
 
 but these must yield the same *H* value, so we can combine the two
 equations, yielding
 
-*L*tan *θ* = (*l*+*L*)tan *ϕ*
+*L*<sub>1</sub>tan *θ* = (*L*<sub>1</sub>+*L*<sub>2</sub>)tan *ϕ*
 
 which can be rearranged to
 
-*L*(tan*θ*−tan*ϕ*) = *l* tan *ϕ*
+*L*<sub>2</sub>(tan*θ*−tan*ϕ*) = *L*<sub>1</sub> tan *ϕ*
 
 and then to
 
-*L* = *l* (tan*ϕ*)/(tan*θ*−tan*ϕ*)
+*L*<sub>1</sub> = *L*<sub>2</sub> (tan*ϕ*)/(tan*θ*−tan*ϕ*)
 
-at which point we have a formula for the unknown *L*. (Wow, the magic of
-mathematics!)
+at which point we have a formula for the unknown distance
+*L*<sub>1</sub>. (Wow, the magic of mathematics!)
 
 Now, we can use this result our original formula for height at the
 nearby spot, to get
 
-*H* = *L*<sub>\*</sub>*l* (tan*θ* tan*ϕ*)/(tan*θ*−tan*ϕ*)
+*H* = *L*<sub>2</sub> (tan*θ* tan*ϕ*)/(tan*θ*−tan*ϕ*)
 
 # Appendix: trigonometry tables
 
