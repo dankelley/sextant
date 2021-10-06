@@ -129,7 +129,7 @@ nearby spot, to get
 
 *H* = *L*<sub>2</sub> (tan*θ* tan*ϕ*) / (tan*θ* − tan*ϕ*)
 
-As an example, consider the illustration above, in which *θ* = 63.4349,
+As an example, consider the illustration above, in which *θ* = 63.435,
 *ϕ* = 45, and suppose that a distance *L*<sub>2</sub> = 50m has been
 inferred by pacing off the distance between the two observation
 locations. The formula given above yields an inferred hill height of
