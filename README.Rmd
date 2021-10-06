@@ -23,30 +23,36 @@ To make the sextant, follow these steps:
 1. Print either the file named `sextant1.pdf` or the one named `sextant2.pdf` on
    a sheet of paper. (These files differ in how the angles are laid out. Pick
    whichever one you find easier to read.)
-2. Paste it on a sheet of thick cardboard or thin wood.  (A wooden shingle
-   would work well, for example.)
+2. Paste it on a sheet of thick cardboard or thin wood.
 3. If you wish, cut along the gray outer semicircle, to eliminate corners.
-4. Create a pivot at the point marked "P", either drilling a hole and inserting
-   a thin dowel or stiff wire, or by driving a nail through the spot.  (If the
-   latter, blunt the sharp end of the nail after you insert it.
-5. Repeat step 4 at the spot marked "S".
-6. Attach fishing line, sewing thread, or thin string, at point "P", and attach
-   something relatively heavy at the end.  The string should be long enough to
-   extend to the edge of your instrument, so that the weight doesn't rub into
-   it the device.  This line-weight combination forms what carpenters call a
-   "plumb line," that is, something that always points vertically.
+4. Create a pivot at the point marked "P". If the sextant is mounted
+   on wood, a pivot can be made with half-hammered nail, or a thin dowel (perhaps
+   a round toothpick) inserted into a pre-drilled hole. If it is mounted on
+   a piece of corrugated cardboard, a round toothpick can inserted by hand.
+   In either case, the pivot must be inserted at right angles to the plane of
+   the sextant.  To keep it so aligned, try using some glue.
+5. Attach fishing line, sewing thread, or thin string, at the "P" pivot. The
+   line should be long enough to extend past the bottom of the sextant.
+   Attach something relatively small but heavy at the free end, which
+   will weigh the line down, making it run vertically along the sextant,
+   pointing in the downward direction.
+6. Insert a mail, dowel or toothpick at the spot marked "S" (the sighting
+   spot).
 
 # Using the sextant
 
-Hold it by the pivot, and rotate the instrument so that you can sight along the
-line from "P" to "S", putting something into view.  Wait a moment until the
-weight stops swinging, and then press your finger on it, just past the scale.
-Then, holding your finger there, read the angle on the scale.  This is the
-angle between your eye and the object sighted, with respect to the horizontal.
+Hold it vertically, with the plumb line extending down to the round scale. Then
+position it so that you can sight an object of interest.  Rotate it in the
+vertical plane until the "P" and "S" points are aligned with the object. You
+might need to wait a second or two for the plumb bob to stop moving.  When it
+does, press your finger on the line, below the scale.  Holding your finger
+there, turn the sextant so that you can read off the angle at the spot where
+the plumb line intersects the round scale.  This is the angle along the
+sighting line, with respect to the horizontal plane.
 
-# Example: tree height
+## Example 1: tree height
 
-![Diagram for measuring tree height.  $L$ is a distance paced off on the ground, $\theta$
+![Figure 1. Diagram for measuring tree height.  $L$ is a distance paced off on the ground, $\theta$
 is the angle found by sighting to the top of the tree, and $H=L\tan\theta$ is the inferred tree height.](tree.png)
 
 As illustrated above, you can find the height $H$ of a tree on flat ground, by
@@ -57,6 +63,68 @@ friend to mark the start and end spots by scratching with chalk or a stone.
 Then measure the distance with a ruler or other measuring device.)  If you
 don't have a calculator handy, you may use the table in the Appendix to get the
 $\tan\theta$, and then multiply by hand to a couple of digits.
+
+
+## Example 2: hill height
+
+In the case of a sloping hill, it is difficult to measure the horizontal
+distance between the top of the hill and the observer.  Pacing a distance off
+gives distance along the slope, which is not the same as distance in the
+horizontal direction.  But we need the horizontal distance to use the formula
+from Example 1.  What to do?
+
+Trigonometry can come to the rescue, provided that there is a flat plain nearby.
+Just measure the angles at two spots on that plain, along with the distance
+between them.  (Pacing works in this case because the ground is level.)
+
+**FIXME: put figure here**
+
+Consider the figure above, in which the two angles are $\theta$ and $\phi$, the
+first being the value observed nearer the hill.  The distance between the
+observation spots is $l$.  This is measured by pacing off distance along the
+flat plain.  We measure $\Theta$, $\phi$, and $l$.
+
+If we knew $L$, we could apply the method of Example 1 at both spots, giving
+two estimates of height.  However, we cannot determine $L$ without without
+tunneling through the hill, so we cannot use the formula for *either* spot.
+
+Tunneling is hard work.  But trigonometry can save us that work!  Let's write
+formulas for the height inferred from the two observations.  At the nearby spot
+we have
+\begin{equation}
+H = L\tan\Theta
+\end{equation}
+and at the farther-away spot we have
+\begin{equation}
+H = (l+L)\tan\phi
+\end{equation}
+but these must yield the same $H$ value, so we can combine the two equations,
+yielding
+\begin{equation}
+L\tan\theta  = (l+L)\tan\phi
+\end{equation}
+which can be rearranged to
+\begin{equation}
+L(\tan\theta -\tan\phi) = l\tan\phi
+\end{equation}
+and then to
+\begin{equation}
+L = l\frac{\tan\phi}{\tan\theta-\tan\phi}
+\end{equation}
+at which point we have a formula for the unknown $L$.  This can be combined
+with the original formula to give
+\begin{equation}
+H = l\frac{\tan\theta\tan\phi}{\tan\theta -\tan\phi}
+\end{equation}
+
+
+If we knew $L$ we could apply the earlier formula to both the near observation
+and the far one.
+
+We can apply the formula
+from Example 1 if only we could unkonown
+
+If $\theta$ is the
 
 # Appendix: trigonometry tables
 
