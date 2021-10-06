@@ -123,7 +123,7 @@ mathematics!)
 Now, we can use this result our original formula for height at the
 nearby spot, to get
 
-*H* = *L̂**l* (tan*θ* tan*ϕ*)/(tan*θ*−tan*ϕ*)
+*H* = *L*<sub>\*</sub>*l* (tan*θ* tan*ϕ*)/(tan*θ*−tan*ϕ*)
 
 # Appendix: trigonometry tables
 
