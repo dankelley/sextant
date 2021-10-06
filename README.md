@@ -96,11 +96,12 @@ without tunneling through the hill, so we cannot use the formula for
 
 Tunneling is hard work. But trigonometry can save us that work! Let’s
 write formulas for the height inferred from the two observations. At the
-nearby spot we have and at the farther-away spot we have but these must
-yield the same *H* value, so we can combine the two equations, yielding
-which can be rearranged to and then to at which point we have a formula
-for the unknown *L*. This can be combined with the original formula to
-give
+nearby spot we have
+*H* = *L*tan *Θ*
+and at the farther-away spot we have but these must yield the same *H*
+value, so we can combine the two equations, yielding which can be
+rearranged to and then to at which point we have a formula for the
+unknown *L*. This can be combined with the original formula to give
 
 If we knew *L* we could apply the earlier formula to both the near
 observation and the far one.

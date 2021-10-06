@@ -91,9 +91,9 @@ tunneling through the hill, so we cannot use the formula for *either* spot.
 Tunneling is hard work.  But trigonometry can save us that work!  Let's write
 formulas for the height inferred from the two observations.  At the nearby spot
 we have
-\begin{equation}
+$$
 H = L\tan\Theta
-\end{equation}
+$$
 and at the farther-away spot we have
 \begin{equation}
 H = (l+L)\tan\phi
