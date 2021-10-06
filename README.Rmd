@@ -113,7 +113,7 @@ L\tan\theta  = (l+L)\tan\phi
 which can be rearranged to
 
 \[
-L(\tan\theta -\tan\phi) = l\ \tan\phi
+L(\tan\theta - \tan\phi) = l\ \tan\phi
 \]
 
 and then to
@@ -129,7 +129,7 @@ Now, we can use this result our original formula for height at the nearby
 spot, to get
 
 \[
-H = l\ (\tan\theta\tan\phi) / (\tan\theta -\tan\phi)
+H = l\ (\tan\theta\ \tan\phi) / (\tan\theta - \tan\phi)
 \]
 
 
