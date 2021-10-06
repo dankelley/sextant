@@ -32,10 +32,12 @@ To make the sextant, follow these steps:
     the spot. (If the latter, blunt the sharp end of the nail after you
     insert it.
 5.  Repeat step 4 at the spot marked “S”.
-6.  Attach fishing line, dental floss, or thin string, at point “P”, and
-    attach something heavy at the end. The string should be long enough
-    to extend to the edge of your instrument, so that the weight doesn’t
-    rub into it.
+6.  Attach fishing line, sewing thread, or thin string, at point “P”,
+    and attach something relatively heavy at the end. The string should
+    be long enough to extend to the edge of your instrument, so that the
+    weight doesn’t rub into it the device. This line-weight combination
+    forms what carpenters call a “plumb line,” that is, something that
+    always points vertically.
 
 # Using the sextant
 
