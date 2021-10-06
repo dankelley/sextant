@@ -53,21 +53,24 @@ read off the angle at the spot where the plumb line intersects the round
 scale. This is the angle along the sighting line, with respect to the
 horizontal plane.
 
-## Example 1: tree height
+## Example 1: height of an object on a flat plain
 
-![Figure 1. Diagram for measuring tree height. *L* is a distance paced
-off on the ground, *θ* is the angle found by sighting to the top of the
-tree, and *H* = *L*tan *θ* is the inferred tree height.](tree.png)
+![Figure 1. Diagram for measuring the height of a flagpole (or tree, or
+building, etc) on a flat plane. *L* is a distance paced off on the
+ground, *θ* is the angle found by sighting to the top of the object, and
+*H* = *L*tan *θ* is the inferred height.](fig1.png)
 
-As illustrated above, you can find the height *H* of a tree on flat
-ground, by pacing off a distance *L* from it’s trunk, and then finding
-the angle *θ* to the top. The height, in paces, is then given by
-*L*tan *θ*. (To convert to meters or some other unit, count off some
-paces on a sidewalk, asking a friend to mark the start and end spots by
-scratching with chalk or a stone. Then measure the distance with a ruler
-or other measuring device.) If you don’t have a calculator handy, you
-may use the table in the Appendix to get the tan *θ*, and then multiply
-by hand to a couple of digits.
+As illustrated above, you can find the height *H* of a flagpole, tree,
+building, etc., on flat ground, by pacing off a horizontal distance *L*
+from it’s base, and then finding the angle *θ* to the top. The height,
+in paces, is then given by *L*tan *θ*. (To convert to meters or some
+other unit, count off some paces on a sidewalk, asking a friend to mark
+the start and end spots by scratching with chalk or a stone. Then
+measure the distance with a ruler or other measuring device.) If you
+don’t have a calculator handy, you may use the table in the Appendix to
+get the tan *θ*, and carry out the calculation by hand to a couple of
+digits. (As an exercise, repeat the pace-measure-calculate exercise a
+few times, to get an idea of the uncertainty of the method.)
 
 ## Example 2: hill height
 
@@ -130,13 +133,13 @@ nearby spot, to get
 *H* = *L*<sub>2</sub> (tan*θ* tan*ϕ*) / (tan*θ* − tan*ϕ*)
 
 As an example, print the illustration above and use a protractor to
-measure angles and a ruler to measure the distance *L*<sub>2</sub>. You
-should find $\\theta=\`r thetaDeg\`$ and *ϕ* = 45. The formula will tell
-you that the ratio of *H* to *L*<sub>2</sub> is 2. You ought to check
-this with a ruler. As a further exercise, draw a diagram like the one
-above, but with different angles, and see if the formula gives the
-correct *H*, given your drawing. Why not try a few test cases, to build
-intuition and familiarity with the formula?
+measure angles and a ruler to measure *L*<sub>2</sub>. You should find
+*θ* = 63.435 and *ϕ* = 45. The formula will tell you that the ratio of
+*H* to *L*<sub>2</sub> is 2. You ought to check this with a ruler. As a
+further exercise, draw a diagram like the one above, but with different
+angles, and see if the formula gives the correct *H*, given your
+drawing. Why not try a few test cases, to build intuition and
+familiarity with the formula?
 
 # Appendix: trigonometry tables
 
