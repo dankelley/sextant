@@ -115,9 +115,7 @@ which can be rearranged to
 
 and then to
 
-$$
-L = l\\ \\frac{\\tan\\phi}{\\tan\\theta-\\tan\\phi}
-$$
+*L* = *l* (tan*ϕ*)/(tan*θ*−tan*ϕ*)
 
 at which point we have a formula for the unknown *L*. (Wow, the magic of
 mathematics!)
@@ -125,9 +123,7 @@ mathematics!)
 Now, we can use this result our original formula for height at the
 nearby spot, to get
 
-$$
-H = l\\frac{\\tan\\theta\\tan\\phi}{\\tan\\theta -\\tan\\phi}
-$$
+*H* = *l* (tan*θ*tan*ϕ*)/(tan*θ*−tan*ϕ*)
 
 # Appendix: trigonometry tables
 
