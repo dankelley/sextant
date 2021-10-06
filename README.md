@@ -102,20 +102,20 @@ nearby spot we have
 
 and at the farther-away spot we have
 
-*H* = (*L*<sub>1</sub>+*L*<sub>2</sub>)tan *ϕ*
+*H* = (*L*<sub>1</sub> + *L*<sub>2</sub>)tan *ϕ*
 
 but these must yield the same *H* value, so we can combine the two
 equations, yielding
 
-*L*<sub>1</sub>tan *θ* = (*L*<sub>1</sub>+*L*<sub>2</sub>)tan *ϕ*
+*L*<sub>1</sub>tan *θ* = (*L*<sub>1</sub> + *L*<sub>2</sub>)tan *ϕ*
 
 which can be rearranged to
 
-*L*<sub>2</sub>(tan*θ*−tan*ϕ*) = *L*<sub>1</sub> tan *ϕ*
+*L*<sub>2</sub>(tan*θ* − tan*ϕ*) = *L*<sub>1</sub> tan *ϕ*
 
 and then to
 
-*L*<sub>1</sub> = *L*<sub>2</sub> (tan*ϕ*) / (tan*θ*−tan*ϕ*)
+*L*<sub>1</sub> = *L*<sub>2</sub> (tan*ϕ*) / (tan*θ* − tan*ϕ*)
 
 at which point we have a formula for the unknown distance
 *L*<sub>1</sub>. (Wow, the magic of mathematics!)
@@ -123,7 +123,7 @@ at which point we have a formula for the unknown distance
 Now, we can use this result our original formula for height at the
 nearby spot, to get
 
-*H* = *L*<sub>2</sub> (tan*θ* tan*ϕ*)/(tan*θ*−tan*ϕ*)
+*H* = *L*<sub>2</sub> (tan*θ* tan*ϕ*) / (tan*θ* − tan*ϕ*)
 
 # Appendix: trigonometry tables
 

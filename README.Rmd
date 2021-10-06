@@ -100,26 +100,26 @@ H = L_1\tan\Theta
 and at the farther-away spot we have
 
 \[
-H = (L_1+L_2)\tan\phi
+H = (L_1\ +\ L_2)\tan\phi
 \]
 
 but these must yield the same $H$ value, so we can combine the two equations,
 yielding
 
 \[
-L_1 \tan\theta  = (L_1 + L_2)\tan\phi
+L_1 \tan\theta  = (L_1\ +\ L_2)\tan\phi
 \]
 
 which can be rearranged to
 
 \[
-L_2 (\tan\theta - \tan\phi) = L_1\ \tan\phi
+L_2 (\tan\theta\ -\ \tan\phi) = L_1\ \tan\phi
 \]
 
 and then to
 
 \[
-L_1 = L_2 \ (\tan\phi)\ /\ (\tan\theta-\tan\phi)
+L_1 = L_2 \ (\tan\phi)\ /\ (\tan\theta\ -\ \tan\phi)
 \]
 
 at which point we have a formula for the unknown distance $L_1$.  (Wow, the
@@ -129,7 +129,7 @@ Now, we can use this result our original formula for height at the nearby
 spot, to get
 
 \[
-H = L_2\ (\tan\theta\ \tan\phi) / (\tan\theta - \tan\phi)
+H = L_2\ (\tan\theta\ \tan\phi)\ /\ (\tan\theta\ -\ \tan\phi)
 \]
 
 
