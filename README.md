@@ -111,15 +111,16 @@ equations, yielding
 
 which can be rearranged to
 
-*L*(tan*θ*−tan*ϕ*) = *l*tan *ϕ*
+*L*(tan*θ*−tan*ϕ*) = *l* tan *ϕ*
 
 and then to
 
 $$
-L = l\\frac{\\tan\\phi}{\\tan\\theta-\\tan\\phi}
+L = l\\ \\frac{\\tan\\phi}{\\tan\\theta-\\tan\\phi}
 $$
 
-at which point we have a formula for the unknown *L*. Wow, magic!
+at which point we have a formula for the unknown *L*. (Wow, the magic of
+mathematics!)
 
 Now, we can use this result our original formula for height at the
 nearby spot, to get
@@ -127,9 +128,6 @@ nearby spot, to get
 $$
 H = l\\frac{\\tan\\theta\\tan\\phi}{\\tan\\theta -\\tan\\phi}
 $$
-
-This little bit of mathematics is surely easier than tunneling through a
-hill :smiley:
 
 # Appendix: trigonometry tables
 
