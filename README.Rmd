@@ -137,14 +137,11 @@ H = L_2\ (\tan\theta\ \tan\phi)\ /\ (\tan\theta\ -\ \tan\phi)
 ```{r echo=FALSE}
 theta <- atan2(1, 1-0.5)
 phi <- atan2(1, 1)
-thetaDeg <- theta * 180/pi
-phiDeg <- phi * 180/pi
+thetaDeg <- round(theta * 180/pi, 4)
+phiDeg <- round(phi * 180/pi, 4)
 L2 <- 50
 H <- L2 * tan(theta)*tan(phi)/(tan(theta)-tan(phi))
 stopifnot(abs(H == 100) < 1e-7)
-message(sprintf("Example: L_2=%g, theta=%.4g deg, phi=%.4g deg yields H=%g (expect H=%g)",
-        L2, theta*180/pi, phi*180/pi, H, 100))
-
 ```
 
 
