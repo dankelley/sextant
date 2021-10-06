@@ -100,7 +100,7 @@ observation spots is $L_2$.  This may be measured by pacing off distance along
 the flat plain, as a horizontal distance was measured in Example 1.
 
 In this case, then, the goal is to infer hill height $H$ from measurements of
-$\Theta$, $\phi$, and $L_2$.
+$\theta$, $\phi$, and $L_2$.
 
 If we knew $L_1$, we could apply the method of Example 1 at both spots, giving
 two estimates of height.  However, we cannot determine $L_1$ without without
@@ -111,7 +111,7 @@ formulas for the height inferred from the two observations.  At the nearby spot
 we have
 
 \[
-H = L_1\tan\Theta
+H = L_1\tan\theta
 \]
 
 and at the farther-away spot we have
@@ -130,17 +130,17 @@ L_1 \tan\theta  = (L_1\ +\ L_2)\tan\phi
 which can be rearranged to
 
 \[
-L_2 (\tan\theta\ -\ \tan\phi) = L_1\ \tan\phi
+L_1 (\tan\theta\ -\ \tan\phi) = L_2\ \tan\phi
 \]
 
 and then to
 
 \[
-L_1 = L_2 \ (\tan\phi)\ /\ (\tan\theta\ -\ \tan\phi)
+L_1 = L_2 \ \tan\phi\ /\ (\tan\theta\ -\ \tan\phi)
 \]
 
-at which point we have a formula for the unknown distance $L_1$.  (Wow, the
-magic of mathematics!)
+at which point we have a formula for the unknown distance $L_1$, based on the
+easily-measured $\theta$, $\phi$ and $L_2$.  (Wow, the magic of mathematics!)
 
 Now, we can use this result our original formula for height at the nearby
 spot, to get
@@ -151,8 +151,8 @@ H = L_2\ (\tan\theta\ \tan\phi)\ /\ (\tan\theta\ -\ \tan\phi)
 ```{r echo=FALSE}
 theta <- atan2(1, 1-0.5)
 phi <- atan2(1, 1)
-thetaDeg <- round(theta * 180/pi, 3)
-phiDeg <- round(phi * 180/pi, 3)
+thetaDeg <- round(theta * 180/pi, 0)
+phiDeg <- round(phi * 180/pi, 0)
 L2 <- 50
 H <- L2 * tan(theta)*tan(phi)/(tan(theta)-tan(phi))
 stopifnot(abs(H == 100) < 1e-7)
@@ -160,12 +160,11 @@ stopifnot(abs(H == 100) < 1e-7)
 
 
 As an example, print the illustration above and use a protractor to measure
-angles and a ruler to measure $L_2$.  You should find $\theta=`r thetaDeg`$ and
-$\phi=`r phiDeg`$.  The formula will tell you that the ratio of $H$ to $L_2$ is
-`r H/L2`.  You ought to check this with a ruler.  As a further exercise, draw a
+angles and a ruler to measure $L_2$.  You should find $\theta=`r thetaDeg`^\circ$ and
+$\phi=`r phiDeg`^\circ$.  The formula then reveals that the ratio of $H$ to $L_2$ is
+`r H/L2`.  You can check this with a ruler.  As a further exercise, draw a
 diagram like the one above, but with different angles, and see if the formula
-gives the correct $H$, given your drawing.  Why not try a few test cases, to
-build intuition and familiarity with the formula?
+gives the correct $H$, given your drawing. Indeed, a good way to understand this might be to try a sequence of tests cases.  You will see that inferring $H$ can be difficult, for certain angle ranges, and this is something worth thinking about.
 
 # Appendix: trigonometry tables
 

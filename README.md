@@ -104,7 +104,7 @@ distance along the flat plain, as a horizontal distance was measured in
 Example 1.
 
 In this case, then, the goal is to infer hill height *H* from
-measurements of *Θ*, *ϕ*, and *L*<sub>2</sub>.
+measurements of *θ*, *ϕ*, and *L*<sub>2</sub>.
 
 If we knew *L*<sub>1</sub>, we could apply the method of Example 1 at
 both spots, giving two estimates of height. However, we cannot determine
@@ -115,7 +115,7 @@ Tunneling is hard work. But trigonometry can save us that work! Let’s
 write formulas for the height inferred from the two observations. At the
 nearby spot we have
 
-*H* = *L*<sub>1</sub>tan *Θ*
+*H* = *L*<sub>1</sub>tan *θ*
 
 and at the farther-away spot we have
 
@@ -128,14 +128,15 @@ equations, yielding
 
 which can be rearranged to
 
-*L*<sub>2</sub>(tan*θ* − tan*ϕ*) = *L*<sub>1</sub> tan *ϕ*
+*L*<sub>1</sub>(tan*θ* − tan*ϕ*) = *L*<sub>2</sub> tan *ϕ*
 
 and then to
 
-*L*<sub>1</sub> = *L*<sub>2</sub> (tan*ϕ*) / (tan*θ* − tan*ϕ*)
+*L*<sub>1</sub> = *L*<sub>2</sub> tan *ϕ* / (tan*θ* − tan*ϕ*)
 
 at which point we have a formula for the unknown distance
-*L*<sub>1</sub>. (Wow, the magic of mathematics!)
+*L*<sub>1</sub>, based on the easily-measured *θ*, *ϕ* and
+*L*<sub>2</sub>. (Wow, the magic of mathematics!)
 
 Now, we can use this result our original formula for height at the
 nearby spot, to get
@@ -144,12 +145,14 @@ nearby spot, to get
 
 As an example, print the illustration above and use a protractor to
 measure angles and a ruler to measure *L*<sub>2</sub>. You should find
-*θ* = 63.435 and *ϕ* = 45. The formula will tell you that the ratio of
-*H* to *L*<sub>2</sub> is 2. You ought to check this with a ruler. As a
-further exercise, draw a diagram like the one above, but with different
-angles, and see if the formula gives the correct *H*, given your
-drawing. Why not try a few test cases, to build intuition and
-familiarity with the formula?
+*θ* = 63<sup>∘</sup> and *ϕ* = 45<sup>∘</sup>. The formula then reveals
+that the ratio of *H* to *L*<sub>2</sub> is 2. You can check this with a
+ruler. As a further exercise, draw a diagram like the one above, but
+with different angles, and see if the formula gives the correct *H*,
+given your drawing. Indeed, a good way to understand this might be to
+try a sequence of tests cases. You will see that inferring *H* can be
+difficult, for certain angle ranges, and this is something worth
+thinking about.
 
 # Appendix: trigonometry tables
 
