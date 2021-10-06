@@ -136,6 +136,9 @@ you that the ratio of *H* to *L* − 2 is 2. Check this with a ruler.
 
 # Appendix: trigonometry tables
 
+Note that sine and cosine are given here in addition to tangent. This is
+because you might find them useful for related calculations.
+
 <table>
 <thead>
 <tr class="header">

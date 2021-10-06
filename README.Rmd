@@ -152,6 +152,9 @@ $H$ to $L-2$ is `r H/L2`.  Check this with a ruler.
 
 # Appendix: trigonometry tables
 
+Note that sine and cosine are given here in addition to tangent.  This is
+because you might find them useful for related calculations.
+
 ```{r echo=FALSE}
 library(knitr)
 angle <- seq(0, 89, 1)
