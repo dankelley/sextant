@@ -37,3 +37,4 @@ H <- L2 * tan(theta)*tan(phi)/(tan(theta)-tan(phi))
 stopifnot(abs(H == 100) < 1e-7)
 message(sprintf("Example: L_2=%g, theta=%.4g deg, phi=%.4g deg yields H=%g (expect H=%g)",
         L2, theta*180/pi, phi*180/pi, H, 100))
+

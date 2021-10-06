@@ -132,8 +132,11 @@ nearby spot, to get
 As an example, print the illustration above and use a protractor to
 measure angles and a ruler to measure the distance *L*<sub>2</sub>. You
 should find $\\theta=\`r thetaDeg\`$ and *ϕ* = 45. The formula will tell
-you that the ratio of *H* to *L*<sub>2</sub> is 2. Check this with a
-ruler.
+you that the ratio of *H* to *L*<sub>2</sub> is 2. You ought to check
+this with a ruler. As a further exercise, draw a diagram like the one
+above, but with different angles, and see if the formula gives the
+correct *H*, given your drawing. Why not try a few test cases, to build
+intuition and familiarity with the formula?
 
 # Appendix: trigonometry tables
 
