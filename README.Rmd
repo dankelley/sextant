@@ -145,10 +145,10 @@ stopifnot(abs(H == 100) < 1e-7)
 ```
 
 
-As an example, consider the illustration above, in which $\theta=`r thetaDeg`$,
-$\phi=`r phiDeg`$, and suppose that a distance $L_2=50$m has been inferred by
-pacing off the distance between the two observation locations.  The formula
-given above yields an inferred hill height of $H=`r H`$m.
+As an example, print the illustration above and use a protractor to measure
+angles and a ruler to measure the distance $L_2$.  You should find $\theta=`r
+thetaDeg`$ and $\phi=`r phiDeg`$.  The formula will tell you that the ratio of
+$H$ to $L-2$ is `r H/L2`.  Check this with a ruler.
 
 # Appendix: trigonometry tables
 

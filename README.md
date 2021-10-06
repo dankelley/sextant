@@ -129,11 +129,10 @@ nearby spot, to get
 
 *H* = *L*<sub>2</sub> (tan*θ* tan*ϕ*) / (tan*θ* − tan*ϕ*)
 
-As an example, consider the illustration above, in which *θ* = 63.435,
-*ϕ* = 45, and suppose that a distance *L*<sub>2</sub> = 50m has been
-inferred by pacing off the distance between the two observation
-locations. The formula given above yields an inferred hill height of
-*H* = 100m.
+As an example, print the illustration above and use a protractor to
+measure angles and a ruler to measure the distance *L*<sub>2</sub>. You
+should find $\\theta=\`r thetaDeg\`$ and *ϕ* = 45. The formula will tell
+you that the ratio of *H* to *L* − 2 is 2. Check this with a ruler.
 
 # Appendix: trigonometry tables
 
