@@ -86,13 +86,13 @@ is level.)
 
 Consider the figure above, in which the two angles are *θ* and *ϕ*, the
 first being the value observed nearer the hill. The distance between the
-observation spots is *L* − 1. This is measured by pacing off distance
-along the flat plain. We measure *Θ*, *ϕ*, and *L*<sub>1</sub>.
+observation spots is *L*<sub>2</sub>. This is measured by pacing off
+distance along the flat plain. We measure *Θ*, *ϕ*, and *L*<sub>2</sub>.
 
-If we knew *L*, we could apply the method of Example 1 at both spots,
-giving two estimates of height. However, we cannot determine *L* without
-without tunneling through the hill, so we cannot use the formula for
-*either* spot.
+If we knew *L*<sub>1</sub>, we could apply the method of Example 1 at
+both spots, giving two estimates of height. However, we cannot determine
+*L*<sub>1</sub> without without tunneling through the hill, so we cannot
+use the formula for *either* spot.
 
 Tunneling is hard work. But trigonometry can save us that work! Let’s
 write formulas for the height inferred from the two observations. At the

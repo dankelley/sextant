@@ -82,11 +82,11 @@ between them.  (Pacing works in this case because the ground is level.)
 
 Consider the figure above, in which the two angles are $\theta$ and $\phi$, the
 first being the value observed nearer the hill.  The distance between the
-observation spots is $L-1$.  This is measured by pacing off distance along the
-flat plain.  We measure $\Theta$, $\phi$, and $L_1$.
+observation spots is $L_2$.  This is measured by pacing off distance along the
+flat plain.  We measure $\Theta$, $\phi$, and $L_2$.
 
-If we knew $L$, we could apply the method of Example 1 at both spots, giving
-two estimates of height.  However, we cannot determine $L$ without without
+If we knew $L_1$, we could apply the method of Example 1 at both spots, giving
+two estimates of height.  However, we cannot determine $L_1$ without without
 tunneling through the hill, so we cannot use the formula for *either* spot.
 
 Tunneling is hard work.  But trigonometry can save us that work!  Let's write
