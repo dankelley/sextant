@@ -82,12 +82,16 @@ nearby. Just measure the angles at two spots on that plain, along with
 the distance between them. (Pacing works in this case because the ground
 is level.)
 
-**FIXME: put figure here**
+![Figure 2. Definition sketch for two-angle case.](fig2.png)
 
 Consider the figure above, in which the two angles are *θ* and *ϕ*, the
 first being the value observed nearer the hill. The distance between the
-observation spots is *L*<sub>2</sub>. This is measured by pacing off
-distance along the flat plain. We measure *Θ*, *ϕ*, and *L*<sub>2</sub>.
+observation spots is *L*<sub>2</sub>. This may be measured by pacing off
+distance along the flat plain, as a horizontal distance was measured in
+Example 1.
+
+In this case, then, the goal is to infer hill height *H* from
+measurements of *Θ*, *ϕ*, and *L*<sub>2</sub>.
 
 If we knew *L*<sub>1</sub>, we could apply the method of Example 1 at
 both spots, giving two estimates of height. However, we cannot determine

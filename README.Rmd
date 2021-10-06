@@ -78,12 +78,15 @@ Trigonometry can come to the rescue, provided that there is a flat plain nearby.
 Just measure the angles at two spots on that plain, along with the distance
 between them.  (Pacing works in this case because the ground is level.)
 
-**FIXME: put figure here**
+![Figure 2. Definition sketch for two-angle case.](fig2.png)
 
 Consider the figure above, in which the two angles are $\theta$ and $\phi$, the
 first being the value observed nearer the hill.  The distance between the
-observation spots is $L_2$.  This is measured by pacing off distance along the
-flat plain.  We measure $\Theta$, $\phi$, and $L_2$.
+observation spots is $L_2$.  This may be measured by pacing off distance along
+the flat plain, as a horizontal distance was measured in Example 1.
+
+In this case, then, the goal is to infer hill height $H$ from measurements of
+$\Theta$, $\phi$, and $L_2$.
 
 If we knew $L_1$, we could apply the method of Example 1 at both spots, giving
 two estimates of height.  However, we cannot determine $L_1$ without without
