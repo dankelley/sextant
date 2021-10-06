@@ -20,7 +20,7 @@ points(0.5,0,pch=20)
 text(0.57,0.09,expression(theta), pos=1, cex=1.4)
 lines(c(0.5, 1), c(0, 1))
 
-epsilon <- delta/20
+epsilon <- delta/10
 arrows(0,-delta,0.20,-delta,code=1, length=0.1)
 arrows(0.3,-delta,0.5-epsilon,-delta,code=2, length=0.1)
 text(0.25, -delta, expression(L[2]))
