@@ -113,10 +113,10 @@
 <div class="figure">
 <img src="https://github.com/dankelley/sextant/raw/main/man/figures/fig1.png" alt=""><p class="caption">Figure 1. Diagram for measuring the height of a flagpole (or tree, or building, etc) on a flat plane. <span class="math inline">\(L\)</span> is a distance along the ground, <span class="math inline">\(\theta\)</span> is the angle found by sighting to the top of the object, and <span class="math inline">\(H=L\tan\theta\)</span> is the inferred height.</p>
 </div>
-<p>As illustrated above, you can find the height <span class="math inline">\(H\)</span> of a flagpole, tree, building, etc., on flat ground, by pacing off a horizontal distance <span class="math inline">\(L\)</span> from it’s base, and then finding the angle <span class="math inline">\(\theta\)</span> to the top. (You may determine <span class="math inline">\(L\)</span> by counting how many paces it takes you to cover 10 sidewalk blocks, and then using a ruler to measure one block to get a conversion factor.) With <span class="math inline">\(L\)</span> and <span class="math inline">\(\theta\)</span> now known, you may calculate the object height with</p>
-<p><span class="math display">\[
-H = H_e + L\tan\theta
-\]</span></p>
+<p>As illustrated in Figure 1 above, you can find the height <span class="math inline">\(H\)</span> of a flagpole, tree, building, etc., on flat ground, by pacing off a horizontal distance <span class="math inline">\(L\)</span> from it’s base, and then finding the angle <span class="math inline">\(\theta\)</span> to the top. (You may determine <span class="math inline">\(L\)</span> by counting how many paces it takes you to cover 10 sidewalk blocks, and then using a ruler to measure one block to get a conversion factor.) With <span class="math inline">\(L\)</span> and <span class="math inline">\(\theta\)</span> now known, you may calculate the object height with</p>
+<p><span class="math display">\[\begin{equation}
+H = H_e + L\tan\theta \hfil (1)
+\end{equation}\]</span></p>
 <p>where <span class="math inline">\(H_e\)</span> is the height of your eye above the ground, which you may take to be your height. Note that <span class="math inline">\(L\)</span> may be measured in “pace” units, converted to metres (or feet) using a calibration factor developed by pacing out a number of sidewalk paving stones, then measuring the length of one of them with a ruler.</p>
 <p>If you don’t have a calculator handy, you may use the table in the Appendix to get the <span class="math inline">\(\tan\theta\)</span>, and carry out the calculation by hand to a couple of digits. (As an exercise, repeat the pace-measure-calculate exercise a few times, to get an idea of the uncertainty of the method.)</p>
 </div>
@@ -154,7 +154,7 @@ L_1 = L_2 \ \tan\phi\ /\ (\tan\theta\ -\ \tan\phi)
 <p>at which point we have a formula for the unknown distance <span class="math inline">\(L_1\)</span>, based on the easily-measured <span class="math inline">\(\theta\)</span>, <span class="math inline">\(\phi\)</span> and <span class="math inline">\(L_2\)</span>. (Wow, the magic of mathematics!)</p>
 <p>Now, we can use this result our original formula for height at the nearby spot, to get</p>
 <p><span class="math display">\[\begin{equation}
-H = H_e + L_2 \frac{\tan\theta\ \tan\phi}{\tan\theta\ -\ \tan\phi}
+H = H_e + L_2 \frac{\tan\theta\ \tan\phi}{\tan\theta\ -\ \tan\phi} \hfill (2)
 \end{equation}\]</span></p>
 <p>where, again, <span class="math inline">\(H_e\)</span> is the height of your eye above the ground.</p>
 <p>As an example, print the illustration above and use a protractor to measure angles and a ruler to measure <span class="math inline">\(L_2\)</span>. The protractor should reveal that <span class="math inline">\(\theta=63^\circ\)</span> and <span class="math inline">\(\phi=45^\circ\)</span>. The formula then reveals that the ratio of <span class="math inline">\(H\)</span> to <span class="math inline">\(L_2\)</span> is 2. You can check this with a ruler. As a further exercise, draw a diagram like the one above, but with different angles, and see if the formula gives the correct <span class="math inline">\(H\)</span>, given your drawing. Indeed, a good way to understand this might be to try a sequence of tests cases. You will see that inferring <span class="math inline">\(H\)</span> can be difficult, for certain angle ranges, and this is something worth thinking about.</p>
