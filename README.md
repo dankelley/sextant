@@ -1,12 +1,12 @@
 # Sextant
 
-The goal of this is to provides software for drawing simple home-made
-sextants, which might be used to find the heights of trees, buildings,
-or hills. They **cannot** be used to take readings of the sun, however,
-owing to the near-certainty of permanent eye damage by looking at the
-sun. Therefore, these sextants cannot be used for the normal purpose of
-navigational sextants.
+The goal of this project is to provide software for creating simple
+home-made sextants that can be used to find the heights of trees,
+buildings, or hills.
 
-Please see the vignette at
-<https://dankelley.github.io/sextant/articles/sextant.html> for the
-details of constructing and using these sextants.
+Importantly, these sextants **cannot** be used to take readings of the
+sun, because they do not provide a light-blocking mechanism that guards
+against eye damage.
+
+Please see <https://dankelley.github.io/sextant/articles/sextant.html>
+for details of constructing and using these sextants.
