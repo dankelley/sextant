@@ -187,7 +187,7 @@ L_1 (\tan\theta\ -\ \tan\phi) = L_2\ \tan\phi
 and then to
 
 \[
-L_1 = L_2 \ \tan\phi\ /\ (\tan\theta\ -\ \tan\phi)
+L_1 = L_2 \frac{\tan\phi}{\tan\theta-\tan\phi}
 \]
 
 at which point we have a formula for the unknown distance $L_1$, based on the
@@ -197,7 +197,7 @@ Now, we can use this result our original formula for height at the nearby
 spot, to get
 
 \begin{equation}
-H = H_e + L_2 \frac{\tan\theta\ \tan\phi}{\tan\theta\ -\ \tan\phi}
+H = H_e + L_2 \frac{\tan\theta\ \tan\phi}{\tan\theta-\tan\phi}
 \end{equation}
 
 where, again, $H_e$ is the height of your eye above the ground.
