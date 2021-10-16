@@ -1,5 +1,6 @@
 # Professional sextants
 
+
 A sextant is an instrument for measuring angles between objects. They have been
 used in navigation for centuries, because latitude can be inferred from a
 measurement of the angle between the horizon and the noontime sun. For this
@@ -28,8 +29,11 @@ high-school trigonometry can be useful!
 
 To make the sextant, follow these steps:
 
-1. Print either the file named [sextant1.pdf](sextant1.pdf) or the one named
-   [sextant2.pdf](sextant2.pdf) on a sheet of paper. (These files differ in how
+1. Print either the file named
+   [sextant1.pdf](https://github.com/dankelley/sextant/raw/main/man/figures/sextant1.pdf)
+   or the one named
+   [sextant1.pdf](https://github.com/dankelley/sextant/raw/main/man/figures/sextant2.pdf)
+   on a sheet of paper. (These files differ in how
    the angles are laid out. Pick whichever one you find easier to read.)
 2. Paste or tape this PDF file onto a piece of cardboard or thin wood.
 3. If you wish, cut along the gray outer semicircle, to eliminate corners.
@@ -65,7 +69,7 @@ sighting line, with respect to the horizontal plane.
 ![Figure 1. Diagram for measuring the height of a flagpole (or tree, or
 building, etc) on a flat plane.  $L$ is a distance along the ground,
 $\theta$ is the angle found by sighting to the top of the object, and
-$H=L\tan\theta$ is the inferred height.](fig1.png)
+$H=L\tan\theta$ is the inferred height.](https://github.com/dankelley/sextant/raw/main/man/figures/fig1.png)
 
 As illustrated above, you can find the height $H$ of a flagpole, tree,
 building, etc., on flat ground, by pacing off a horizontal distance $L$ from
@@ -102,7 +106,7 @@ Trigonometry can come to the rescue, provided that there is a flat plain nearby.
 Just measure the angles at two spots on that plain, along with the distance
 between them.  (Pacing works in this case because the ground is level.)
 
-![Figure 2. Definition sketch for two-angle case.](fig2.png)
+![Figure 2. Definition sketch for two-angle case.](https://github.com/dankelley/sextant/raw/main/man/figures/fig2.png)
 
 Consider the figure above, in which the two angles are $\theta$ and $\phi$, the
 first being the value observed nearer the hill.  The distance between the
