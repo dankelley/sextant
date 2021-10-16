@@ -1,1 +1,6 @@
 *~
+.Rproj.user
+docs
+*.swp
+*.swo
+.DS_Store
