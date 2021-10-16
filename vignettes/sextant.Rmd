@@ -55,10 +55,10 @@ high-school trigonometry can be useful!
 
 To make the sextant, follow these steps:
 
-1. Print either the file named
+1. Print either 
    https://github.com/dankelley/sextant/raw/main/man/figures/sextant1.pdf
    or
-   [sextant1.pdf](https://github.com/dankelley/sextant/raw/main/man/figures/sextant2.pdf)
+   https://github.com/dankelley/sextant/raw/main/man/figures/sextant2.pdf
    on a sheet of paper. (These files differ in how
    the angles are laid out. Pick whichever one you find easier to read.)
 2. Paste or tape this PDF file onto a piece of cardboard or thin wood.
@@ -185,9 +185,9 @@ easily-measured $\theta$, $\phi$ and $L_2$.  (Wow, the magic of mathematics!)
 Now, we can use this result our original formula for height at the nearby
 spot, to get
 
-\[
-H = H_e + L_2\ (\tan\theta\ \tan\phi)\ /\ (\tan\theta\ -\ \tan\phi)
-\]
+\begin{equation}
+H = H_e + L_2 \frac{\tan\theta\ \tan\phi}{\tan\theta\ -\ \tan\phi}
+\end{equation}
 
 where, again, $H_e$ is the height of your eye above the ground.
 
