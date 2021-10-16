@@ -207,7 +207,8 @@ spot, to get
 H = h_e + L_2 \frac{\tan\theta\ \tan\phi}{\tan\theta-\tan\phi}
 \end{equation}
 
-where, again, $h_e$ is the height of your eye above the ground.
+to get the height of the object above the ground.  Here, again, $h_e$ is the
+height of your eye above the ground.
 
 
 ```{r echo=FALSE}
