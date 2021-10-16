@@ -155,6 +155,7 @@ spot, to get
 \begin{equation}
 H = H_e + L_2\ (\tan\theta\ \tan\phi)\ /\ (\tan\theta\ -\ \tan\phi)
 \end{equation}
+
 where, again, $H_e$ is the height of you eye above the ground.
 
 
