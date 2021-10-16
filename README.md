@@ -29,10 +29,10 @@ a good way to see that high-school trigonometry can be useful!
 To make the sextant, follow these steps:
 
 1.  Print either the file named [sextant1.pdf](sextant1.pdf) or the one
-    named `sextant2.pdf` on a sheet of paper. (These files differ in how
-    the angles are laid out. Pick whichever one you find easier to
-    read.)
-2.  Paste it on a sheet of thick cardboard or thin wood.
+    named [sextant2.pdf](sextant2.pdf) on a sheet of paper. (These files
+    differ in how the angles are laid out. Pick whichever one you find
+    easier to read.)
+2.  Paste or tape this PDF file onto a piece of cardboard or thin wood.
 3.  If you wish, cut along the gray outer semicircle, to eliminate
     corners.
 4.  Create a pivot at the point marked “P”. If the sextant is mounted on
@@ -46,7 +46,9 @@ To make the sextant, follow these steps:
     pivot. The line should be long enough to extend past the bottom of
     the sextant. Attach something relatively small but heavy at the free
     end, which will weigh the line down, making it run vertically along
-    the sextant, pointing in the downward direction.
+    the sextant, pointing in the downward direction. A bolt or washer is
+    a good choice since you can attach it by tying a knot, but you could
+    also use a heavy coin, attached by tape.
 6.  Insert a mail, dowel or toothpick at the spot marked “S” (the
     sighting spot).
 
