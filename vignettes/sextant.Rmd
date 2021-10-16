@@ -96,10 +96,7 @@ This method can be used to find the height of an object at a known distance,
 measured across a level plane.  It requires making only a single angle
 measurement.
 
-![Figure 1. Diagram for measuring the height of a flagpole (or tree, or
-building, etc) on a flat plane.  $L$ is a distance along the ground,
-$\theta$ is the angle found by sighting to the top of the object, and
-$h=L\tan\theta$ is the inferred height above the sighting plane.](https://github.com/dankelley/sextant/raw/main/man/figures/fig1.png)
+![Figure 1. Definition sketch for the computation of the height of a object on level terrain. $h$ is the height to be computed, while $L$ is a measured distance along the ground, and $\theta$ is the angle found by sighting from the marked point to the top of the object.](https://github.com/dankelley/sextant/raw/main/man/figures/fig1.png)
 
 As illustrated in Figure 1 above, you can find the height $h$ of a flagpole,
 tree, building, etc., on flat ground, by pacing off a horizontal distance $L$
@@ -149,7 +146,7 @@ Trigonometry can come to the rescue, provided that there is a flat plain nearby.
 Just measure the angles at two spots on that plain, along with the distance
 between them.  (Pacing works in this case because the ground is level.)
 
-![Figure 2. Definition sketch for two-angle case.](https://github.com/dankelley/sextant/raw/main/man/figures/fig2.png)
+![Figure 2. Definition sketch for the two-angle case. $L_1$ is an unknown distance, and $L_2$ is a known distance.  Angles $\theta$ and $\phi$ are measured by sighting the top of the object from the two marked points.](https://github.com/dankelley/sextant/raw/main/man/figures/fig2.png)
 
 Consider the figure above, in which the two angles are $\theta$ and $\phi$, the
 first being the value observed nearer the hill.  The distance between the
