@@ -69,10 +69,14 @@ ground, *θ* is the angle found by sighting to the top of the object, and
 *H* = *L*tan *θ* is the inferred height.](fig1.png)
 
 As illustrated above, you can find the height *H* of a flagpole, tree,
-building, etc., on flat ground, by pacing off[1] a horizontal distance
-*L* from it’s base, and then finding the angle *θ* to the top. The
-height above is then given by where *H*<sub>*e*</sub> is the height of
-your eye above the ground, which you may take to be your height.
+building, etc., on flat ground, by pacing off a horizontal distance *L*
+from it’s base, and then finding the angle *θ* to the top. The height
+above is then given by where *H*<sub>*e*</sub> is the height of your eye
+above the ground, which you may take to be your height. Note that the
+result will be in “pace” units, but you can convert that easily to
+metres or feet by counting the number of paces you take to cross some
+number of sidewalk paving stones, then measuring the length of one stone
+with a ruler, to develop a conversion factor.
 
 If you don’t have a calculator handy, you may use the table in the
 Appendix to get the tan *θ*, and carry out the calculation by hand to a
@@ -709,7 +713,3 @@ because you might find them useful for related calculations.
 </tr>
 </tbody>
 </table>
-
-[1] It’s easy to convert a paced-off distance to an actual distance by
-pacing off 10 paving stones in a sidewalk and using a ruler to measure
-the length of one of the stones.
