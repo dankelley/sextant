@@ -90,7 +90,7 @@ there, turn the sextant so that you can read off the angle at the spot where
 the plumb line intersects the round scale.  This is the angle along the
 sighting line, with respect to the horizontal plane.
 
-# Case 1: Height of object at known distance
+# Height of object at known distance
 
 This method can be used to find the height of an object at a known distance,
 measured across a level plane.  It requires making only a single angle
@@ -131,7 +131,7 @@ times, to get an idea of the uncertainty of the method.)
 
 
 
-# Case 2: height of object at unknown distance
+# Height of object at unknown distance
 
 This method can be used to find the height of an object at a unknown distance,
 so long as distance can be measured along locally flat terrain.  Two angles
@@ -221,16 +221,27 @@ H <- L2 * tan(theta)*tan(phi)/(tan(theta)-tan(phi))
 stopifnot(abs(H == 100) < 1e-7)
 ```
 
+# A test case
 
-As an example, print the illustration above and use a protractor to measure
-angles and a ruler to measure $L_2$.  The protractor should reveal that
-$\theta=`r thetaDeg`^\circ$ and $\phi=`r phiDeg`^\circ$.  The formula then
-reveals that the ratio of $H$ to $L_2$ is `r H/L2`.  You can check this with a
-ruler.  As a further exercise, draw a diagram like the one above, but with
-different angles, and see if the formula gives the correct $H$, given your
-drawing. Indeed, a good way to understand this might be to try a sequence of
-tests cases.  You will see that inferring $H$ can be difficult, for certain
-angle ranges, and this is something worth thinking about.
+
+```{r echo=FALSE}
+L <- 20/181*sqrt(360^2+150^2)
+Lerr <- 1 # 20/175*sqrt(360^2+150^2)
+theta <- 20
+thetaerr <- 1
+He <- 1.5
+H <- He + L*tan(theta*pi/180)
+H2 <- He + (L+Lerr) * tan((theta+thetaerr)*pi/180)
+Herr <- round(abs(H2 - H), 1)
+```
+
+
+The method was used to to estimate a downward distance, sighting from an apartment window to the base of a nearby building.  For an independent value, I calculated the observation height as $`r sprintf("%.1f",3*5+0.5+1.5)`$m $\pm 0.5$m, based on my stature together with an estimate of the elevation of the first floor above ground-level, and taking into account the floor from which I made the observation.
+
+A map from https://www.openstreetmap.org revealed the horizontal distance to be $L=`r round(L)` \pm `r Lerr`$m.  The sextant gave $\theta=`r theta`^\circ \pm `r round(thetaerr)`^\circ$ as the downward angle.  These values gave the height of my eye as  $`r round(H,1)`\pm `r round(Herr,1)`$m.
+
+In this test case, the height estimates based on floor count and sextant angle
+are in agreement, to within the measurement uncertainty.
 
 # Appendix: trigonometry tables
 
