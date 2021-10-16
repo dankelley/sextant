@@ -151,7 +151,7 @@ nearby spot, to get
 
 *H* = *H*<sub>*e*</sub> + *L*<sub>2</sub> (tan*θ* tan*ϕ*) / (tan*θ* − tan*ϕ*)
 
-where, again, *H*<sub>*e*</sub> is the height of you eye above the
+where, again, *H*<sub>*e*</sub> is the height of your eye above the
 ground.
 
 As an example, print the illustration above and use a protractor to
