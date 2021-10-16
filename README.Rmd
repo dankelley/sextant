@@ -71,9 +71,11 @@ As illustrated above, you can find the height $H$ of a flagpole, tree,
 building, etc., on flat ground, by pacing off a horizontal distance $L$ from
 it's base, and then finding the angle $\theta$ to the top. The height above is
 then given by
-\begin{equation}
+
+\[
 H = H_e + L\tan\theta
-\end{equation}
+\]
+
 where $H_e$ is the height of your eye above the ground, which you may take to
 be your height.  Note that the result will be in "pace" units, but you can
 convert that easily to metres or feet by counting the number of paces you take
@@ -151,9 +153,11 @@ easily-measured $\theta$, $\phi$ and $L_2$.  (Wow, the magic of mathematics!)
 
 Now, we can use this result our original formula for height at the nearby
 spot, to get
+
 \[
 H = H_e + L_2\ (\tan\theta\ \tan\phi)\ /\ (\tan\theta\ -\ \tan\phi)
 \]
+
 where, again, $H_e$ is the height of you eye above the ground.
 
 

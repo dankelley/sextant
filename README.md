@@ -74,12 +74,16 @@ ground, *θ* is the angle found by sighting to the top of the object, and
 As illustrated above, you can find the height *H* of a flagpole, tree,
 building, etc., on flat ground, by pacing off a horizontal distance *L*
 from it’s base, and then finding the angle *θ* to the top. The height
-above is then given by where *H*<sub>*e*</sub> is the height of your eye
-above the ground, which you may take to be your height. Note that the
-result will be in “pace” units, but you can convert that easily to
-metres or feet by counting the number of paces you take to cross some
-number of sidewalk paving stones, then measuring the length of one stone
-with a ruler, to develop a conversion factor.
+above is then given by
+
+*H* = *H*<sub>*e*</sub> + *L*tan *θ*
+
+where *H*<sub>*e*</sub> is the height of your eye above the ground,
+which you may take to be your height. Note that the result will be in
+“pace” units, but you can convert that easily to metres or feet by
+counting the number of paces you take to cross some number of sidewalk
+paving stones, then measuring the length of one stone with a ruler, to
+develop a conversion factor.
 
 If you don’t have a calculator handy, you may use the table in the
 Appendix to get the tan *θ*, and carry out the calculation by hand to a
@@ -144,7 +148,9 @@ at which point we have a formula for the unknown distance
 
 Now, we can use this result our original formula for height at the
 nearby spot, to get
+
 *H* = *H*<sub>*e*</sub> + *L*<sub>2</sub> (tan*θ* tan*ϕ*) / (tan*θ* − tan*ϕ*)
+
 where, again, *H*<sub>*e*</sub> is the height of you eye above the
 ground.
 
