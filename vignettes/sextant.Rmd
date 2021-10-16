@@ -106,7 +106,7 @@ factor.) With $L$ and $\theta$ now known, you may calculate the object height
 with
 
 \begin{equation}
-H = H_e + L\tan\theta \hfil (1)
+H = H_e + L\tan\theta
 \end{equation}
 
 where $H_e$ is the height of your eye above the ground, which you may take to
@@ -187,7 +187,7 @@ Now, we can use this result our original formula for height at the nearby
 spot, to get
 
 \begin{equation}
-H = H_e + L_2 \frac{\tan\theta\ \tan\phi}{\tan\theta\ -\ \tan\phi} \hfill (2)
+H = H_e + L_2 \frac{\tan\theta\ \tan\phi}{\tan\theta\ -\ \tan\phi}
 \end{equation}
 
 where, again, $H_e$ is the height of your eye above the ground.
