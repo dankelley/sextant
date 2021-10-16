@@ -97,16 +97,17 @@ building, etc) on a flat plane.  $L$ is a distance along the ground,
 $\theta$ is the angle found by sighting to the top of the object, and
 $H=L\tan\theta$ is the inferred height.](https://github.com/dankelley/sextant/raw/main/man/figures/fig1.png)
 
-As illustrated above, you can find the height $H$ of a flagpole, tree,
-building, etc., on flat ground, by pacing off a horizontal distance $L$ from
-it's base, and then finding the angle $\theta$ to the top. (You may determine
-$L$ by counting how many paces it takes you to cover 10 sidewalk blocks, and
-then using a ruler to measure one block to get a conversion factor.) With $L$
-and $\theta$ now known, you may calculate the object height with
+As illustrated in Figure 1 above, you can find the height $H$ of a flagpole,
+tree, building, etc., on flat ground, by pacing off a horizontal distance $L$
+from it's base, and then finding the angle $\theta$ to the top. (You may
+determine $L$ by counting how many paces it takes you to cover 10 sidewalk
+blocks, and then using a ruler to measure one block to get a conversion
+factor.) With $L$ and $\theta$ now known, you may calculate the object height
+with
 
-\[
-H = H_e + L\tan\theta
-\]
+\begin{equation}
+H = H_e + L\tan\theta \hfil (1)
+\end{equation}
 
 where $H_e$ is the height of your eye above the ground, which you may take to
 be your height.  Note that $L$ may be measured in "pace" units, converted to
@@ -186,7 +187,7 @@ Now, we can use this result our original formula for height at the nearby
 spot, to get
 
 \begin{equation}
-H = H_e + L_2 \frac{\tan\theta\ \tan\phi}{\tan\theta\ -\ \tan\phi}
+H = H_e + L_2 \frac{\tan\theta\ \tan\phi}{\tan\theta\ -\ \tan\phi} \hfill (2)
 \end{equation}
 
 where, again, $H_e$ is the height of your eye above the ground.
