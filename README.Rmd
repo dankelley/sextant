@@ -79,10 +79,9 @@ H = H_e + L\tan\theta
 \]
 
 where $H_e$ is the height of your eye above the ground, which you may take to
-be your height.  Note that the result will be in "pace" units, but you can
-convert that easily to metres or feet by counting the number of paces you take
-to cross some number of sidewalk paving stones, then measuring the length of
-one stone with a ruler, to develop a conversion factor.
+be your height.  Note that $L$ may be measured in "pace" units, converted to
+metres (or feet) using a calibration factor developed by pacing out a number of
+sidewalk paving stones, then measuring the length of one of them with a ruler.
 
 If you don't have a calculator handy, you may use the table in the Appendix to
 get the $\tan\theta$, and carry out the calculation by hand to a couple of
