@@ -106,10 +106,12 @@
 <div id="taking-angle-readings" class="section level1">
 <h1 class="hasAnchor">
 <a href="#taking-angle-readings" class="anchor"></a>Taking angle readings</h1>
-<p>Hold it vertically, with the plumb line extending down to the round scale. Then position it so that you can sight an object of interest. Rotate it in the vertical plane until the “P” and “S” points are aligned with the object. You might need to wait a second or two for the plumb bob to stop moving. When it does, press your finger on the line, below the scale. Holding your finger there, turn the sextant so that you can read off the angle at the spot where the plumb line intersects the round scale. This is the angle along the sighting line, with respect to the horizontal plane.</p>
-<div id="example-1-height-of-an-object-on-a-level-plain" class="section level2">
-<h2 class="hasAnchor">
-<a href="#example-1-height-of-an-object-on-a-level-plain" class="anchor"></a>Example 1: height of an object on a level plain</h2>
+<p>Hold the sextant vertically, with the plumb line extending down to the round scale. Then position it so that you can sight an object of interest. Rotate it in the vertical plane until the “P” and “S” points are aligned with the object. You might need to wait a second or two for the plumb bob to stop moving. When it does, press your finger on the line, below the scale. Holding your finger there, turn the sextant so that you can read off the angle at the spot where the plumb line intersects the round scale. This is the angle along the sighting line, with respect to the horizontal plane.</p>
+</div>
+<div id="case-1-height-of-object-at-known-distance" class="section level1">
+<h1 class="hasAnchor">
+<a href="#case-1-height-of-object-at-known-distance" class="anchor"></a>Case 1: Height of object at known distance</h1>
+<p>This method can be used to find the height of an object at a known distance, measured across a level plane. It requires making only a single angle measurement.</p>
 <div class="figure">
 <img src="https://github.com/dankelley/sextant/raw/main/man/figures/fig1.png" alt=""><p class="caption">Figure 1. Diagram for measuring the height of a flagpole (or tree, or building, etc) on a flat plane. <span class="math inline">\(L\)</span> is a distance along the ground, <span class="math inline">\(\theta\)</span> is the angle found by sighting to the top of the object, and <span class="math inline">\(H=L\tan\theta\)</span> is the inferred height.</p>
 </div>
@@ -120,9 +122,10 @@ H = H_e + L\tan\theta
 <p>where <span class="math inline">\(H_e\)</span> is the height of your eye above the ground, which you may take to be your height. Note that <span class="math inline">\(L\)</span> may be measured in “pace” units, converted to metres (or feet) using a calibration factor developed by pacing out a number of sidewalk paving stones, then measuring the length of one of them with a ruler.</p>
 <p>If you don’t have a calculator handy, you may use the table in the Appendix to get the <span class="math inline">\(\tan\theta\)</span>, and carry out the calculation by hand to a couple of digits. (As an exercise, repeat the pace-measure-calculate exercise a few times, to get an idea of the uncertainty of the method.)</p>
 </div>
-<div id="example-2-hill-height" class="section level2">
-<h2 class="hasAnchor">
-<a href="#example-2-hill-height" class="anchor"></a>Example 2: hill height</h2>
+<div id="case-2-height-of-object-at-unknown-distance" class="section level1">
+<h1 class="hasAnchor">
+<a href="#case-2-height-of-object-at-unknown-distance" class="anchor"></a>Case 2: height of object at unknown distance</h1>
+<p>This method can be used to find the height of an object at a unknown distance, so long as distance can be measured along locally flat terrain. Two angles must be measured, one at the near end of this local terrain and the other at the far end.</p>
 <p>In the case of a sloping hill, it is difficult to measure the horizontal distance between the top of the hill and the observer. Pacing a distance off gives distance along the slope, which is not the same as distance in the horizontal direction. But we need the horizontal distance to use the formula from Example 1. What to do?</p>
 <p>Trigonometry can come to the rescue, provided that there is a flat plain nearby. Just measure the angles at two spots on that plain, along with the distance between them. (Pacing works in this case because the ground is level.)</p>
 <div class="figure">
@@ -149,16 +152,15 @@ L_1 (\tan\theta\ -\ \tan\phi) = L_2\ \tan\phi
 \]</span></p>
 <p>and then to</p>
 <p><span class="math display">\[
-L_1 = L_2 \ \tan\phi\ /\ (\tan\theta\ -\ \tan\phi)
+L_1 = L_2 \frac{\tan\phi}{\tan\theta-\tan\phi}
 \]</span></p>
 <p>at which point we have a formula for the unknown distance <span class="math inline">\(L_1\)</span>, based on the easily-measured <span class="math inline">\(\theta\)</span>, <span class="math inline">\(\phi\)</span> and <span class="math inline">\(L_2\)</span>. (Wow, the magic of mathematics!)</p>
 <p>Now, we can use this result our original formula for height at the nearby spot, to get</p>
 <p><span class="math display">\[\begin{equation}
-H = H_e + L_2 \frac{\tan\theta\ \tan\phi}{\tan\theta\ -\ \tan\phi}
+H = H_e + L_2 \frac{\tan\theta\ \tan\phi}{\tan\theta-\tan\phi}
 \end{equation}\]</span></p>
 <p>where, again, <span class="math inline">\(H_e\)</span> is the height of your eye above the ground.</p>
 <p>As an example, print the illustration above and use a protractor to measure angles and a ruler to measure <span class="math inline">\(L_2\)</span>. The protractor should reveal that <span class="math inline">\(\theta=63^\circ\)</span> and <span class="math inline">\(\phi=45^\circ\)</span>. The formula then reveals that the ratio of <span class="math inline">\(H\)</span> to <span class="math inline">\(L_2\)</span> is 2. You can check this with a ruler. As a further exercise, draw a diagram like the one above, but with different angles, and see if the formula gives the correct <span class="math inline">\(H\)</span>, given your drawing. Indeed, a good way to understand this might be to try a sequence of tests cases. You will see that inferring <span class="math inline">\(H\)</span> can be difficult, for certain angle ranges, and this is something worth thinking about.</p>
-</div>
 </div>
 <div id="appendix-trigonometry-tables" class="section level1">
 <h1 class="hasAnchor">
