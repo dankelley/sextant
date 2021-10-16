@@ -64,17 +64,20 @@ read off the angle at the spot where the plumb line intersects the round
 scale. This is the angle along the sighting line, with respect to the
 horizontal plane.
 
-## Example 1: height of an object on a flat plain
+## Example 1: height of an object on a level plain
 
 ![Figure 1. Diagram for measuring the height of a flagpole (or tree, or
-building, etc) on a flat plane. *L* is a distance paced off on the
-ground, *θ* is the angle found by sighting to the top of the object, and
+building, etc) on a flat plane. *L* is a distance along the ground, *θ*
+is the angle found by sighting to the top of the object, and
 *H* = *L*tan *θ* is the inferred height.](fig1.png)
 
 As illustrated above, you can find the height *H* of a flagpole, tree,
 building, etc., on flat ground, by pacing off a horizontal distance *L*
-from it’s base, and then finding the angle *θ* to the top. The object
-height is then given by
+from it’s base, and then finding the angle *θ* to the top. (You may
+determine *L* by counting how many paces it takes you to cover 10
+sidewalk blocks, and then using a ruler to measure one block to get a
+conversion factor.) With *L* and *θ* now known, you may calculate the
+object height with
 
 *H* = *H*<sub>*e*</sub> + *L*tan *θ*
 
