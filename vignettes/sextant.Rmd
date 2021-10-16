@@ -81,16 +81,20 @@ To make the sextant, follow these steps:
 
 # Taking angle readings
 
-Hold it vertically, with the plumb line extending down to the round scale. Then
-position it so that you can sight an object of interest.  Rotate it in the
-vertical plane until the "P" and "S" points are aligned with the object. You
-might need to wait a second or two for the plumb bob to stop moving.  When it
-does, press your finger on the line, below the scale.  Holding your finger
+Hold the sextant vertically, with the plumb line extending down to the round
+scale. Then position it so that you can sight an object of interest. Rotate it
+in the vertical plane until the "P" and "S" points are aligned with the object.
+You might need to wait a second or two for the plumb bob to stop moving.  When
+it does, press your finger on the line, below the scale.  Holding your finger
 there, turn the sextant so that you can read off the angle at the spot where
 the plumb line intersects the round scale.  This is the angle along the
 sighting line, with respect to the horizontal plane.
 
-## Example 1: height of an object on a level plain
+# Case 1: Height of object at known distance
+
+This method can be used to find the height of an object at a known distance,
+measured across a level plane.  It requires making only a single angle
+measurement.
 
 ![Figure 1. Diagram for measuring the height of a flagpole (or tree, or
 building, etc) on a flat plane.  $L$ is a distance along the ground,
@@ -121,7 +125,13 @@ times, to get an idea of the uncertainty of the method.)
 
 
 
-## Example 2: hill height
+# Case 2: height of object at unknown distance
+
+This method can be used to find the height of an object at a unknown distance,
+so long as distance can be measured along locally flat terrain.  Two angles
+must be measured, one at the near end of this local terrain and the other at
+the far end.
+
 
 In the case of a sloping hill, it is difficult to measure the horizontal
 distance between the top of the hill and the observer.  Pacing a distance off
