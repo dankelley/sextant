@@ -73,8 +73,8 @@ ground, *θ* is the angle found by sighting to the top of the object, and
 
 As illustrated above, you can find the height *H* of a flagpole, tree,
 building, etc., on flat ground, by pacing off a horizontal distance *L*
-from it’s base, and then finding the angle *θ* to the top. The height
-above is then given by
+from it’s base, and then finding the angle *θ* to the top. The object
+height is then given by
 
 *H* = *H*<sub>*e*</sub> + *L*tan *θ*
 

@@ -69,7 +69,7 @@ $H=L\tan\theta$ is the inferred height.](fig1.png)
 
 As illustrated above, you can find the height $H$ of a flagpole, tree,
 building, etc., on flat ground, by pacing off a horizontal distance $L$ from
-it's base, and then finding the angle $\theta$ to the top. The height above is
+it's base, and then finding the angle $\theta$ to the top. The object height is
 then given by
 
 \[
