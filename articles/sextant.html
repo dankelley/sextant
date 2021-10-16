@@ -95,7 +95,7 @@
 <p>A crude sextant measuring angles with respect to the horizontal plane can be used to determine the heights of objects, using a method invented a thousand years ago by Al Biruni (see Peter Lynch’s blog posting “Al Biruni and the Size of the Earth.” ThatsMaths, June 10, 2021. <a href="https://thatsmaths.com/2021/06/10/al-biruni-and-the-size-of-the-earth/" class="uri">https://thatsmaths.com/2021/06/10/al-biruni-and-the-size-of-the-earth/</a>). Carrying out such measurements and performing the associated calculations can be a fun way to spend some time outside, and it’s also a good way to see that high-school trigonometry can be useful!</p>
 <p>To make the sextant, follow these steps:</p>
 <ol style="list-style-type: decimal">
-<li>Print either the file named <a href="https://github.com/dankelley/sextant/raw/main/man/figures/sextant1.pdf" class="uri">https://github.com/dankelley/sextant/raw/main/man/figures/sextant1.pdf</a> or <a href="https://github.com/dankelley/sextant/raw/main/man/figures/sextant2.pdf">sextant1.pdf</a> on a sheet of paper. (These files differ in how the angles are laid out. Pick whichever one you find easier to read.)</li>
+<li>Print either <a href="https://github.com/dankelley/sextant/raw/main/man/figures/sextant1.pdf" class="uri">https://github.com/dankelley/sextant/raw/main/man/figures/sextant1.pdf</a> or <a href="https://github.com/dankelley/sextant/raw/main/man/figures/sextant2.pdf" class="uri">https://github.com/dankelley/sextant/raw/main/man/figures/sextant2.pdf</a> on a sheet of paper. (These files differ in how the angles are laid out. Pick whichever one you find easier to read.)</li>
 <li>Paste or tape this PDF file onto a piece of cardboard or thin wood.</li>
 <li>If you wish, cut along the gray outer semicircle, to eliminate corners.</li>
 <li>Create a pivot at the point marked “P”. If the sextant is mounted on wood, a pivot can be made with half-hammered nail, or a thin dowel (perhaps a round toothpick) inserted into a pre-drilled hole. If it is mounted on a piece of corrugated cardboard, a round toothpick can inserted by hand. In either case, the pivot must be inserted at right angles to the plane of the sextant. To keep it so aligned, try using some glue.</li>
@@ -153,9 +153,9 @@ L_1 = L_2 \ \tan\phi\ /\ (\tan\theta\ -\ \tan\phi)
 \]</span></p>
 <p>at which point we have a formula for the unknown distance <span class="math inline">\(L_1\)</span>, based on the easily-measured <span class="math inline">\(\theta\)</span>, <span class="math inline">\(\phi\)</span> and <span class="math inline">\(L_2\)</span>. (Wow, the magic of mathematics!)</p>
 <p>Now, we can use this result our original formula for height at the nearby spot, to get</p>
-<p><span class="math display">\[
-H = H_e + L_2\ (\tan\theta\ \tan\phi)\ /\ (\tan\theta\ -\ \tan\phi)
-\]</span></p>
+<p><span class="math display">\[\begin{equation}
+H = H_e + L_2 \frac{\tan\theta\ \tan\phi}{\tan\theta\ -\ \tan\phi}
+\end{equation}\]</span></p>
 <p>where, again, <span class="math inline">\(H_e\)</span> is the height of your eye above the ground.</p>
 <p>As an example, print the illustration above and use a protractor to measure angles and a ruler to measure <span class="math inline">\(L_2\)</span>. The protractor should reveal that <span class="math inline">\(\theta=63^\circ\)</span> and <span class="math inline">\(\phi=45^\circ\)</span>. The formula then reveals that the ratio of <span class="math inline">\(H\)</span> to <span class="math inline">\(L_2\)</span> is 2. You can check this with a ruler. As a further exercise, draw a diagram like the one above, but with different angles, and see if the formula gives the correct <span class="math inline">\(H\)</span>, given your drawing. Indeed, a good way to understand this might be to try a sequence of tests cases. You will see that inferring <span class="math inline">\(H\)</span> can be difficult, for certain angle ranges, and this is something worth thinking about.</p>
 </div>
