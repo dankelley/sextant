@@ -28,9 +28,10 @@ a good way to see that high-school trigonometry can be useful!
 
 To make the sextant, follow these steps:
 
-1.  Print either the file named `sextant1.pdf` or the one named
-    `sextant2.pdf` on a sheet of paper. (These files differ in how the
-    angles are laid out. Pick whichever one you find easier to read.)
+1.  Print either the file named (sextant1.pdf)\[sextant1.pdf\] or the
+    one named `sextant2.pdf` on a sheet of paper. (These files differ in
+    how the angles are laid out. Pick whichever one you find easier to
+    read.)
 2.  Paste it on a sheet of thick cardboard or thin wood.
 3.  If you wish, cut along the gray outer semicircle, to eliminate
     corners.
