@@ -99,24 +99,30 @@ measurement.
 ![Figure 1. Diagram for measuring the height of a flagpole (or tree, or
 building, etc) on a flat plane.  $L$ is a distance along the ground,
 $\theta$ is the angle found by sighting to the top of the object, and
-$H=L\tan\theta$ is the inferred height.](https://github.com/dankelley/sextant/raw/main/man/figures/fig1.png)
+$h=L\tan\theta$ is the inferred height above the sighting plane.](https://github.com/dankelley/sextant/raw/main/man/figures/fig1.png)
 
-As illustrated in Figure 1 above, you can find the height $H$ of a flagpole,
+As illustrated in Figure 1 above, you can find the height $h$ of a flagpole,
 tree, building, etc., on flat ground, by pacing off a horizontal distance $L$
 from it's base, and then finding the angle $\theta$ to the top. (You may
 determine $L$ by counting how many paces it takes you to cover 10 sidewalk
-blocks, and then using a ruler to measure one block to get a conversion
+stones, and then using a ruler to measure one stone to get a conversion
 factor.) With $L$ and $\theta$ now known, you may calculate the object height
-with
+above the sighting plan as
+
+\[
+h = L\tan\theta
+\]
+
+so that the height of the object above the ground is given by
 
 \begin{equation}
-H = H_e + L\tan\theta
+H = h_e + L\tan\theta
 \end{equation}
 
-where $H_e$ is the height of your eye above the ground, which you may take to
-be your height.  Note that $L$ may be measured in "pace" units, converted to
-metres (or feet) using a calibration factor developed by pacing out a number of
-sidewalk paving stones, then measuring the length of one of them with a ruler.
+where $h_e$ is the height of your eye above the ground. Note that $L$ may be
+measured in "pace" units, converted to metres (or feet) using a calibration
+factor developed by pacing out a number of sidewalk paving stones, then
+measuring the length of one of them with a ruler.
 
 If you don't have a calculator handy, you may use the table in the Appendix to
 get the $\tan\theta$, and carry out the calculation by hand to a couple of
@@ -150,28 +156,27 @@ first being the value observed nearer the hill.  The distance between the
 observation spots is $L_2$.  This may be measured by pacing off distance along
 the flat plain, as a horizontal distance was measured in Example 1.
 
-In this case, then, the goal is to infer hill height $H$ from measurements of
+In this case, then, the goal is to infer hill height from measurements of
 $\theta$, $\phi$, and $L_2$.
 
 If we knew $L_1$, we could apply the method of Example 1 at both spots, giving
 two estimates of height.  However, we cannot determine $L_1$ without without
 tunneling through the hill, so we cannot use the formula for *either* spot.
 
-Tunneling is hard work.  But trigonometry can save us that work!  Let's write
-formulas for the height inferred from the two observations.  At the nearby spot
-we have
+Luckily, a little trigonometry can save us a lot of tunneling!  At the nearby
+spot we have
 
 \[
-H = H_e + L_1\tan\theta
+h = L_1\tan\theta
 \]
 
 and at the farther-away spot we have
 
 \[
-H = H_e + (L_1\ +\ L_2)\tan\phi
+h = (L_1\ +\ L_2)\tan\phi
 \]
 
-but these must yield the same $H$ value, so we can combine the two equations,
+but these must yield the same $h$ value, so we can combine the two equations,
 yielding
 
 \[
@@ -191,16 +196,18 @@ L_1 = L_2 \frac{\tan\phi}{\tan\theta-\tan\phi}
 \]
 
 at which point we have a formula for the unknown distance $L_1$, based on the
-easily-measured $\theta$, $\phi$ and $L_2$.  (Wow, the magic of mathematics!)
+easily-measured $\theta$, $\phi$ and $L_2$.  (This illustrates the magic of
+mathematics, for we found that answer just by moving symbols around, instead of
+visualizing calculations.)
 
 Now, we can use this result our original formula for height at the nearby
 spot, to get
 
 \begin{equation}
-H = H_e + L_2 \frac{\tan\theta\ \tan\phi}{\tan\theta-\tan\phi}
+H = h_e + L_2 \frac{\tan\theta\ \tan\phi}{\tan\theta-\tan\phi}
 \end{equation}
 
-where, again, $H_e$ is the height of your eye above the ground.
+where, again, $h_e$ is the height of your eye above the ground.
 
 
 ```{r echo=FALSE}

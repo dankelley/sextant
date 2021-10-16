@@ -10,7 +10,7 @@ lines(rep(1, 2), c(0, 1), lwd=5, col="gray")
 text(1-epsilon, 1, "Object", font=2, pos=3)
 arrows(1+delta,0,1+delta,0.45,code=1, length=0.1)
 arrows(1+delta,0.5+delta,1+delta,1, code=2, length=0.1)
-text(1+delta, 0.5, "H")
+text(1+delta, 0.5, "h")
 box(col=4)
 abline(h=0)
 #lines(rep(1,2), c(0,1), lwd=4, col="darkgray")
@@ -28,8 +28,8 @@ text(0.75, -delta, expression(L))
 theta <- atan2(1, 1-0.5)
 phi <- atan2(1, 1)
 L2 <- 50
-H <- L2 * tan(theta)*tan(phi)/(tan(theta)-tan(phi))
-stopifnot(abs(H == 100) < 1e-7)
-message(sprintf("Example: L_2=%g, theta=%.4g deg, phi=%.4g deg yields H=%g (expect H=%g)",
-        L2, theta*180/pi, phi*180/pi, H, 100))
+h <- L2 * tan(theta)*tan(phi)/(tan(theta)-tan(phi))
+stopifnot(abs(h == 100) < 1e-7)
+message(sprintf("Example: L_2=%g, theta=%.4g deg, phi=%.4g deg yields h=%g (expect h=%g)",
+        L2, theta*180/pi, phi*180/pi, h, 100))
 
