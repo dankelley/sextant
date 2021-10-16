@@ -56,8 +56,8 @@ high-school trigonometry can be useful!
 To make the sextant, follow these steps:
 
 1. Print either the file named
-   [sextant1.pdf](https://github.com/dankelley/sextant/raw/main/man/figures/sextant1.pdf)
-   or the one named
+   https://github.com/dankelley/sextant/raw/main/man/figures/sextant1.pdf
+   or
    [sextant1.pdf](https://github.com/dankelley/sextant/raw/main/man/figures/sextant2.pdf)
    on a sheet of paper. (These files differ in how
    the angles are laid out. Pick whichever one you find easier to read.)
