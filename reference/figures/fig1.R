@@ -7,7 +7,7 @@ epsilon <- delta/10
 plot(x, y, axes=FALSE, xlab="", ylab="",
     asp=1, type="n", xlim=c(-0.1,1.1), ylim=c(-0.1,1.1))
 lines(rep(1, 2), c(0, 1), lwd=5, col="gray")
-text(1-epsilon, 1, "Flagpole", font=2, pos=3)
+text(1-epsilon, 1, "Object", font=2, pos=3)
 arrows(1+delta,0,1+delta,0.45,code=1, length=0.1)
 arrows(1+delta,0.5+delta,1+delta,1, code=2, length=0.1)
 text(1+delta, 0.5, "H")
