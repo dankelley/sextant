@@ -7,10 +7,8 @@ noontime sun. For this reason, professional sextants have a way of
 sighting the sun angle without looking at the sun.
 
 This sun-observation method is **certainly NOT** a possibility with the
-sextant described below, because it does not involve a sun-blocking
-mechanism. Looking directly at the sun is, needless to say,
-**extremely** dangerous, because of the very high risk of permanent
-vision damage.
+sextant described below, because it lacks a sun-blocking mechanism, and
+looking directly at the sun is **extremely** dangerous.
 
 The purpose of the sextant provided here is to for use in finding angles
 (with respect to the horizontal), which allows a person to infer the
@@ -51,7 +49,7 @@ To make the sextant, follow these steps:
 6.  Insert a mail, dowel or toothpick at the spot marked “S” (the
     sighting spot).
 
-# Using the sextant
+# Taking angle readings
 
 Hold it vertically, with the plumb line extending down to the round
 scale. Then position it so that you can sight an object of interest.
@@ -71,16 +69,15 @@ ground, *θ* is the angle found by sighting to the top of the object, and
 *H* = *L*tan *θ* is the inferred height.](fig1.png)
 
 As illustrated above, you can find the height *H* of a flagpole, tree,
-building, etc., on flat ground, by pacing off a horizontal distance *L*
-from it’s base, and then finding the angle *θ* to the top. The height,
-in paces, is then given by *L*tan *θ*. (To convert to meters or some
-other unit, count off some paces on a sidewalk, asking a friend to mark
-the start and end spots by scratching with chalk or a stone. Then
-measure the distance with a ruler or other measuring device.) If you
-don’t have a calculator handy, you may use the table in the Appendix to
-get the tan *θ*, and carry out the calculation by hand to a couple of
-digits. (As an exercise, repeat the pace-measure-calculate exercise a
-few times, to get an idea of the uncertainty of the method.)
+building, etc., on flat ground, by pacing off[1] a horizontal distance
+*L* from it’s base, and then finding the angle *θ* to the top. The
+height above is then given by where *H*<sub>*e*</sub> is the height of
+your eye above the ground, which you may take to be your height.
+
+If you don’t have a calculator handy, you may use the table in the
+Appendix to get the tan *θ*, and carry out the calculation by hand to a
+couple of digits. (As an exercise, repeat the pace-measure-calculate
+exercise a few times, to get an idea of the uncertainty of the method.)
 
 ## Example 2: hill height
 
@@ -115,11 +112,11 @@ Tunneling is hard work. But trigonometry can save us that work! Let’s
 write formulas for the height inferred from the two observations. At the
 nearby spot we have
 
-*H* = *L*<sub>1</sub>tan *θ*
+*H* = *H*<sub>*e*</sub> + *L*<sub>1</sub>tan *θ*
 
 and at the farther-away spot we have
 
-*H* = (*L*<sub>1</sub> + *L*<sub>2</sub>)tan *ϕ*
+*H* = *H*<sub>*e*</sub> + (*L*<sub>1</sub> + *L*<sub>2</sub>)tan *ϕ*
 
 but these must yield the same *H* value, so we can combine the two
 equations, yielding
@@ -141,18 +138,19 @@ at which point we have a formula for the unknown distance
 Now, we can use this result our original formula for height at the
 nearby spot, to get
 
-*H* = *L*<sub>2</sub> (tan*θ* tan*ϕ*) / (tan*θ* − tan*ϕ*)
+where, again, *H*<sub>*e*</sub> is the height of you eye above the
+ground.
 
 As an example, print the illustration above and use a protractor to
-measure angles and a ruler to measure *L*<sub>2</sub>. You should find
-*θ* = 63<sup>∘</sup> and *ϕ* = 45<sup>∘</sup>. The formula then reveals
-that the ratio of *H* to *L*<sub>2</sub> is 2. You can check this with a
-ruler. As a further exercise, draw a diagram like the one above, but
-with different angles, and see if the formula gives the correct *H*,
-given your drawing. Indeed, a good way to understand this might be to
-try a sequence of tests cases. You will see that inferring *H* can be
-difficult, for certain angle ranges, and this is something worth
-thinking about.
+measure angles and a ruler to measure *L*<sub>2</sub>. The protractor
+should reveal that *θ* = 63<sup>∘</sup> and *ϕ* = 45<sup>∘</sup>. The
+formula then reveals that the ratio of *H* to *L*<sub>2</sub> is 2. You
+can check this with a ruler. As a further exercise, draw a diagram like
+the one above, but with different angles, and see if the formula gives
+the correct *H*, given your drawing. Indeed, a good way to understand
+this might be to try a sequence of tests cases. You will see that
+inferring *H* can be difficult, for certain angle ranges, and this is
+something worth thinking about.
 
 # Appendix: trigonometry tables
 
@@ -711,3 +709,7 @@ because you might find them useful for related calculations.
 </tr>
 </tbody>
 </table>
+
+[1] It’s easy to convert a paced-off distance to an actual distance by
+pacing off 10 paving stones in a sidewalk and using a ruler to measure
+the length of one of the stones.

@@ -7,9 +7,8 @@ reason, professional sextants have a way of sighting the sun angle without
 looking at the sun.
 
 This sun-observation method is **certainly NOT** a possibility with the sextant
-described below, because it does not involve a sun-blocking mechanism. Looking
-directly at the sun is, needless to say, **extremely** dangerous, because of
-the very high risk of permanent vision damage.
+described below, because it lacks a sun-blocking mechanism, and looking
+directly at the sun is **extremely** dangerous.
 
 The purpose of the sextant provided here is to for use in finding angles (with
 respect to the horizontal), which allows a person to infer the heights of
@@ -48,7 +47,7 @@ To make the sextant, follow these steps:
 6. Insert a mail, dowel or toothpick at the spot marked "S" (the sighting
    spot).
 
-# Using the sextant
+# Taking angle readings
 
 Hold it vertically, with the plumb line extending down to the round scale. Then
 position it so that you can sight an object of interest.  Rotate it in the
@@ -67,16 +66,21 @@ $\theta$ is the angle found by sighting to the top of the object, and
 $H=L\tan\theta$ is the inferred height.](fig1.png)
 
 As illustrated above, you can find the height $H$ of a flagpole, tree,
-building, etc., on flat ground, by pacing off a horizontal distance $L$ from
-it's base, and then finding the angle $\theta$ to the top. The height, in
-paces, is then given by $L\tan\theta$.  (To convert to meters or some other
-unit, count off some paces on a sidewalk, asking a friend to mark the start and
-end spots by scratching with chalk or a stone. Then measure the distance with a
-ruler or other measuring device.)  If you don't have a calculator handy, you
-may use the table in the Appendix to get the $\tan\theta$, and carry out the
-calculation by hand to a couple of digits.  (As an exercise, repeat the
-pace-measure-calculate exercise a few times, to get an idea of the uncertainty
-of the method.)
+building, etc., on flat ground, by pacing off^[It's easy to convert a paced-off
+distance to an actual distance by pacing off 10 paving stones in a sidewalk and
+using a ruler to measure the length of one of the stones.] a horizontal
+distance $L$ from it's base, and then finding the angle $\theta$ to the top.
+The height above is then given by
+\begin{equation}
+H = H_e + L\tan\theta
+\end{equation}
+where $H_e$ is the height of your eye above the ground, which you may take to
+be your height.
+
+If you don't have a calculator handy, you may use the table in the Appendix to
+get the $\tan\theta$, and carry out the calculation by hand to a couple of
+digits.  (As an exercise, repeat the pace-measure-calculate exercise a few
+times, to get an idea of the uncertainty of the method.)
 
 
 
@@ -111,13 +115,13 @@ formulas for the height inferred from the two observations.  At the nearby spot
 we have
 
 \[
-H = L_1\tan\theta
+H = H_e + L_1\tan\theta
 \]
 
 and at the farther-away spot we have
 
 \[
-H = (L_1\ +\ L_2)\tan\phi
+H = H_e + (L_1\ +\ L_2)\tan\phi
 \]
 
 but these must yield the same $H$ value, so we can combine the two equations,
@@ -145,9 +149,12 @@ easily-measured $\theta$, $\phi$ and $L_2$.  (Wow, the magic of mathematics!)
 Now, we can use this result our original formula for height at the nearby
 spot, to get
 
-\[
-H = L_2\ (\tan\theta\ \tan\phi)\ /\ (\tan\theta\ -\ \tan\phi)
-\]
+\begin{equation}
+H = H_e + L_2\ (\tan\theta\ \tan\phi)\ /\ (\tan\theta\ -\ \tan\phi)
+\end{equation}
+where, again, $H_e$ is the height of you eye above the ground.
+
+
 ```{r echo=FALSE}
 theta <- atan2(1, 1-0.5)
 phi <- atan2(1, 1)
@@ -160,11 +167,14 @@ stopifnot(abs(H == 100) < 1e-7)
 
 
 As an example, print the illustration above and use a protractor to measure
-angles and a ruler to measure $L_2$.  You should find $\theta=`r thetaDeg`^\circ$ and
-$\phi=`r phiDeg`^\circ$.  The formula then reveals that the ratio of $H$ to $L_2$ is
-`r H/L2`.  You can check this with a ruler.  As a further exercise, draw a
-diagram like the one above, but with different angles, and see if the formula
-gives the correct $H$, given your drawing. Indeed, a good way to understand this might be to try a sequence of tests cases.  You will see that inferring $H$ can be difficult, for certain angle ranges, and this is something worth thinking about.
+angles and a ruler to measure $L_2$.  The protractor should reveal that
+$\theta=`r thetaDeg`^\circ$ and $\phi=`r phiDeg`^\circ$.  The formula then
+reveals that the ratio of $H$ to $L_2$ is `r H/L2`.  You can check this with a
+ruler.  As a further exercise, draw a diagram like the one above, but with
+different angles, and see if the formula gives the correct $H$, given your
+drawing. Indeed, a good way to understand this might be to try a sequence of
+tests cases.  You will see that inferring $H$ can be difficult, for certain
+angle ranges, and this is something worth thinking about.
 
 # Appendix: trigonometry tables
 
