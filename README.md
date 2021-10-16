@@ -1,25 +1,12 @@
+# Sextant
 
-# sextant
+The goal of this is to provides software for drawing simple home-made
+sextants, which might be used to find the heights of trees, buildings,
+or hills. They **cannot** be used to take readings of the sun, however,
+owing to the near-certainty of permanent eye damage by looking at the
+sun. Therefore, these sextants cannot be used for the normal purpose of
+navigational sextants.
 
-<!-- badges: start -->
-<!-- badges: end -->
-
-The goal of sextant is to ...
-
-## Installation
-
-You can install the released version of sextant from [CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("sextant")
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(sextant)
-## basic example code
-```
-
+Please see the vignette at
+<https://dankelley.github.io/sextant/articles/sextant.html> for the
+details of constructing and using these sextants.
