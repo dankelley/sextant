@@ -144,7 +144,7 @@ at which point we have a formula for the unknown distance
 
 Now, we can use this result our original formula for height at the
 nearby spot, to get
-
+*H* = *H*<sub>*e*</sub> + *L*<sub>2</sub> (tan*θ* tan*ϕ*) / (tan*θ* − tan*ϕ*)
 where, again, *H*<sub>*e*</sub> is the height of you eye above the
 ground.
 
