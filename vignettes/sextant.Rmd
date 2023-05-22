@@ -259,6 +259,6 @@ rounding, matches the value in the third row and second column.
 ```{r echo=FALSE}
 m <- matrix(tan(seq(0,89)*pi/180), byrow=TRUE, nrow=9)
 rownames(m) <- paste(0:8, "x", sep="")
-colnames(m) <- paste("x", 0:9, sep="")
+colnames(m) <- paste("x=", 0:9, sep="")
 print(round(m,3))
 ```

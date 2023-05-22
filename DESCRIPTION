@@ -1,5 +1,5 @@
 Package: sextant
-Title: Draw crude home-use sextants
+Title: Draw Crude Home-Use Sextants
 Version: 0.0-1
 Authors@R: c(
     person(given="Dan", family="Kelley", email="Dan.Kelley@Dal.Ca", role=c("aut", "cre"), comment=c(ORCID="https://orcid.org/0000-0001-7808-5911")))
@@ -7,12 +7,13 @@ Maintainer: Dan Kelley <Dan.Kelley@Dal.Ca>
 Depends: R (>= 3.5)
 BugReports: https://github.com/dankelley/sextant/issues
 Description: Supports crude home-use sextants that can be used to infer the heights of buildings, trees, etc.  They are NOT to be used for solar navigation because that would require looking at the sun, which is VERY dangerous.
+Suggests: knitr
 License: GPL (>= 2)
 Encoding: UTF-8
 URL: https://dankelley.github.io/sextant/
 LazyData: false
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 BuildVignettes: true
 VignetteBuilder: knitr
 NeedsCompilation: yes
